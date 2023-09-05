@@ -13,14 +13,14 @@ struct ContentView: View {
         ZStack {
             NavigationView {
                 TabView(selection: $viewName) {
-                    MovievoteView()
+                    MovieVoteView()
                         .tabItem {
                             Label(title: { Text("영화투표") },
                                   icon: { Image(systemName: "popcorn") })
-                                
+                            
                         }
                         .tag("영화투표")
-                        
+                    
                     
                     MainView()
                         .tabItem {
@@ -30,7 +30,7 @@ struct ContentView: View {
                         }
                         .tag("홈")
                     
-                    SleepoverView(date: Date())
+                    SleepOverView(date: Date())
                         .tabItem {
                             Label(
                                 title: { Text("외박신청") },
@@ -39,18 +39,20 @@ struct ContentView: View {
                         .tag("외박신청")
                     
                 }
-                .navigationBarItems(leading: Text("\(viewName)")
-                    .padding(.leading, 10)
-                    .font(Font.custom("Apple SD Gothic Neo", size: 20))
-                    .fontWeight(.semibold))
+                .navigationBarItems(leading: Text("\(viewName)"))
+                .padding(.leading, 10)
+                .font(Font.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
+              
+                
                 
                 
                 .navigationBarItems(trailing:
-                    Button(action: {}) {
-                        Text("≡")
-                            .font(.system(size: 40))
-                            .foregroundColor(.black)
+                                        Button(action: {}) {
+                    Text("≡")
+                        .font(.system(size: 40))
+                        .foregroundColor(.black)
                 })
+                
             }
         }
     }
