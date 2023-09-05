@@ -16,7 +16,7 @@ struct ContentView: View {
                     MovieVoteView()
                         .tabItem {
                             Label(title: { Text("영화투표") },
-                                  icon: { Image(systemName: "popcorn") })
+                                  icon: { Image(systemName: "play.tv") })
                             
                         }
                         .tag("영화투표")
@@ -34,17 +34,11 @@ struct ContentView: View {
                         .tabItem {
                             Label(
                                 title: { Text("외박신청") },
-                                icon: { Image(systemName: "door.left.hand.open") })
+                                icon: { Image(systemName: "figure.walk") })
                         }
                         .tag("외박신청")
                     
                 }
-                .navigationBarItems(leading: Text("\(viewName)"))
-                .padding(.leading, 10)
-                .font(Font.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
-              
-                
-                
                 
                 .navigationBarItems(trailing:
                                         Button(action: {}) {

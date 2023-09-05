@@ -9,9 +9,7 @@ import SwiftUI
 
 struct MovieVoteView: View {
     var body: some View {
-        ZStack {
             List {
-                
                 ForEach(1..<10) { _ in
                     
                     VStack(spacing: 15) {
@@ -20,14 +18,7 @@ struct MovieVoteView: View {
                             .aspectRatio(contentMode: .fill)
                             .clipped()
                             .clipShape(RoundedRectangle(cornerRadius: 15))
-                            .swipeActions(allowsFullSwipe: true) {
-                                Button {
-                                    print("Hello, BongSeong!")
-                                } label: {
-                                    Label("투표", systemImage: "checkmark.circle")
-                                }
-                                
-                            }
+                            
                         
                         
                         Text("매드맥스: 분노의 승혁")
@@ -36,24 +27,22 @@ struct MovieVoteView: View {
                             .multilineTextAlignment(.center)
                         
                     }
+                    
                     .padding(.vertical, 50)
+                    .swipeActions(edge: .trailing) {
+                        Button {
+                            print("Hello, BongSeong!")
+                        } label: {
+                            Label("투표", systemImage: "checkmark.circle")
+                        }
+                        
+                    }
                     
                 }
                 
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .clipShape(RoundedRectangle(cornerRadius: 15))
-            
-            
-            
-            
-            
-            
-            
-            
-            Spacer()
-        }
-        
     }
     
 }
