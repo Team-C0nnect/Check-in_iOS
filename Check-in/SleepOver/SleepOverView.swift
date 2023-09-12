@@ -19,6 +19,8 @@ struct SleepOverView: View {
     
 }
 
-#Preview {
-    SleepOverView(date: Date())
+struct SleepOver_PreView: PreviewProvider {
+    static var previews: some View {
+        SleepOverView(date: Date.now)
+    }
 }

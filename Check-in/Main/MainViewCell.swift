@@ -25,6 +25,8 @@ struct MainViewCell: View {
     }
 }
 
-#Preview {
-    MainViewCell(label: "이승혁 꼬추")
+struct MainViewCell_Previews: PreviewProvider {
+    static var previews: some View {
+        MainViewCell(label: "신민호")
+    }
 }

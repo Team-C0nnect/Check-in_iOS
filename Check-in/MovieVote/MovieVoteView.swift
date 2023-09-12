@@ -48,6 +48,8 @@ struct MovieVoteView: View {
 }
 
 
-#Preview {
-    MovieVoteView()
+struct MovieVote_Previews: PreviewProvider {
+    static var previews: some View {
+        MovieVoteView()
+    }
 }
