@@ -8,19 +8,33 @@
 import SwiftUI
 
 struct SleepOverView: View {
-    @State var date: Date
-    let range = Date.now ... Date.now.addingTimeInterval(60*60*24*60)
     var body: some View {
-        DatePicker("Datepicker", selection: $date, in: range, displayedComponents: .date)
-            .padding(.horizontal, 10)
+        VStack {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("외박 신청")
+                        .font(Font.custom("Apple SD Gothic Neo", size: 30).weight(.semibold))
+                    Text("신청할 날짜와 사유를 적어주세요")
+                        .font(Font.custom("Apple SD Gothic Neo", size: 14).weight(.semibold))
+                }
+                .padding(.leading, 30)
+                Spacer()
+            }
+            ScrollView {
+                SleepOverCell("외박 날짜")
+                SleepOverCell("복귀 날짜")
+                SleepOverReasonCell()
+            }
+            .padding(.top, 43)
             
-            
+            SleepOverButton()
+            Spacer()
+        }
     }
-    
 }
 
 struct SleepOver_PreView: PreviewProvider {
     static var previews: some View {
-        SleepOverView(date: Date.now)
+        SleepOverView()
     }
 }

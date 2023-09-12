@@ -19,7 +19,7 @@ struct ContentView: View {
                     .customTabItem("영화 투표", "play.tv.fill", Color.white)
                 MainView()
                     .customTabItem("홈", "house.fill", Color.white)
-                SleepOverView(date: Date.now)
+                SleepOverView()
                     .customTabItem("외박 신청", "figure.walk", Color.white)
             }
         }
