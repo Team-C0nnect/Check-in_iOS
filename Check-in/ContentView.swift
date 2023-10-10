@@ -18,6 +18,7 @@ struct ContentView: View {
             CustomTabView() {
                 MovieVoteView()
                     .customTabItem("영화 투표", "play.tv.fill", Color.white)
+                    
                    
                 MainView()
                     .customTabItem("홈", "house.fill", Color.white)

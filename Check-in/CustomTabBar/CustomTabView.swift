@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CustomTabView: View {
     
-    
     @State var selected: Int = 0
     
     let content: [CustomTabItem]
@@ -39,7 +38,6 @@ struct CustomTabView: View {
                 }
             }
             .frame(height: 51)
-            .frame(maxWidth: .infinity)
             .background(Color.accentColor)
             .ignoresSafeArea()
             
@@ -51,7 +49,7 @@ struct CustomTabView_Previews: PreviewProvider {
     static var previews: some View {
         CustomTabView() {
             Text("d")
-                .customTabItem("1", "house", Color.white)
+                .customTabItem("1", "play.tv.fill", Color.white)
             MovieVoteView()
                 .customTabItem("2", "house", Color.white)
             Text("w")

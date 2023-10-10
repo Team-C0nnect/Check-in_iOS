@@ -14,9 +14,8 @@ struct MainView: View {
                 .padding(.bottom, 42)
             MainViewCell(label: "출석 체크 여부")
             
-            Spacer()
+            
         }
-        .padding(.vertical, 20)
     }
 }
 
