@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426F3F5B2AD56A8500D1C553 /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F3F582AD56A8500D1C553 /* CustomTabItem.swift */; };
+		426F3F5C2AD56A8500D1C553 /* CustomTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F3F592AD56A8500D1C553 /* CustomTabExtension.swift */; };
+		426F3F5D2AD56A8500D1C553 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F3F5A2AD56A8500D1C553 /* CustomButtonView.swift */; };
 		751CBA962ABD3DF600575DCE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */; };
 		75713B882AB078E100AC876A /* SleepOverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B872AB078E100AC876A /* SleepOverCell.swift */; };
 		75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		426F3F582AD56A8500D1C553 /* CustomTabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
+		426F3F592AD56A8500D1C553 /* CustomTabExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabExtension.swift; sourceTree = "<group>"; };
+		426F3F5A2AD56A8500D1C553 /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		75713B872AB078E100AC876A /* SleepOverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverCell.swift; sourceTree = "<group>"; };
 		75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverReasonCell.swift; sourceTree = "<group>"; };
@@ -80,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		426F3F572AD56A8500D1C553 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				426F3F582AD56A8500D1C553 /* CustomTabItem.swift */,
+				426F3F592AD56A8500D1C553 /* CustomTabExtension.swift */,
+				426F3F5A2AD56A8500D1C553 /* CustomButtonView.swift */,
+			);
+			name = CustomTabBar;
+			path = "Check-in/CustomTabBar";
+			sourceTree = SOURCE_ROOT;
+		};
 		757C76532AA712FB008F250C /* MovieVote */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +154,7 @@
 				75F447E02A9F693900D8B8AB /* ContentView.swift */,
 				757C76532AA712FB008F250C /* MovieVote */,
 				757C76542AA7130E008F250C /* SleepOver */,
+				426F3F572AD56A8500D1C553 /* CustomTabBar */,
 				75F447E22A9F694100D8B8AB /* Main */,
 				75F447D42A9F60FB00D8B8AB /* Assets.xcassets */,
 				75F447D62A9F60FB00D8B8AB /* Preview Content */,
@@ -251,9 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426F3F5D2AD56A8500D1C553 /* CustomButtonView.swift in Sources */,
 				75A2164F2AB98D3F00B78C67 /* GoogleLoginAction.swift in Sources */,
+				426F3F5B2AD56A8500D1C553 /* CustomTabItem.swift in Sources */,
 				75F447DF2A9F638900D8B8AB /* MainViewCell.swift in Sources */,
 				75713B882AB078E100AC876A /* SleepOverCell.swift in Sources */,
+				426F3F5C2AD56A8500D1C553 /* CustomTabExtension.swift in Sources */,
 				75F447D32A9F60F600D8B8AB /* MainView.swift in Sources */,
 				75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */,
 				75A216522AB9B32700B78C67 /* GoogleLoginModel.swift in Sources */,

@@ -7,32 +7,64 @@
 
 import SwiftUI
 
+enum TabIndex{
+    case movie, home, sleepOver
+}
+
 struct ContentView: View {
     
     
     @State var viewName: String = "홈"
+    @State var tabIndex: TabIndex
     
+    func changeView(tabIndex: TabIndex) -> AnyView {
+        switch tabIndex {
+        case .movie:
+            return AnyView(MovieVoteView())
+        case .home:
+            return AnyView(MainView())
+        case .sleepOver:
+            return AnyView(SleepOverView())
+        default:
+            return AnyView(MainView())
+        }
+    }
     
     var body: some View {
         NavigationView {
-            CustomTabView() {
-                MovieVoteView()
-                    .customTabItem("영화 투표", "play.tv.fill", Color.white)
-                    
-                   
-                MainView()
-                    .customTabItem("홈", "house.fill", Color.white)
-                  
-                SleepOverView()
-                    .customTabItem("외박 신청", "figure.walk", Color.white)
-               
-            }
-            .navigationBarItems(trailing: Text("≡")
-                    .font(
-                    Font.custom("Apple SD Gothic Neo", size: 64).weight(.bold))
-                    .foregroundColor(Color(red: 0, green: 0, blue: 0.13)))
             
+            GeometryReader { geometry in
+                VStack {
+                    self.changeView(tabIndex: self.tabIndex)
+                    
+                    Spacer()
+                    
+                    HStack(spacing: 0) {
+                        CustomButtonView("영화투표", "play.tv.fill",
+                                         self.tabIndex == .movie ? Color.accentColor : Color.kindaGray,
+                                         true,
+                                         action: {self.tabIndex = .movie})
+                            .frame(width: geometry.size.width / 3, height: 50)
+                        
+                        CustomButtonView("홈", "house.fill",
+                                         self.tabIndex == .home ? Color.accentColor : Color.kindaGray,
+                                         true,
+                                         action: {self.tabIndex = .home})
+                            .frame(width: geometry.size.width / 3, height: 50)
+                        
+                        CustomButtonView("외박신청", "powersleep",
+                                         self.tabIndex == .sleepOver ? Color.accentColor : Color.kindaGray,
+                                         true,
+                                         action: {self.tabIndex = .sleepOver})
+                            .frame(width: geometry.size.width / 3, height: 50)
+                    }
+                    .padding(.top)
+                }
+            }
         }
+
+            
+        
         
         
     }
@@ -40,7 +72,7 @@ struct ContentView: View {
 
 struct MyPreviewProvider_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(tabIndex: .home)
     }
 }
 
