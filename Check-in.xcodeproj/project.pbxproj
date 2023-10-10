@@ -11,6 +11,7 @@
 		42D6228A2AB05346005E3779 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D622892AB05346005E3779 /* CustomTabView.swift */; };
 		42D6228C2AB05EAB005E3779 /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6228B2AB05EAB005E3779 /* CustomTabItem.swift */; };
 		42D6228E2AB05F5B005E3779 /* CustomTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6228D2AB05F5B005E3779 /* CustomTabExtension.swift */; };
+		751CBA962ABD3DF600575DCE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */; };
 		75713B882AB078E100AC876A /* SleepOverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B872AB078E100AC876A /* SleepOverCell.swift */; };
 		75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */; };
 		75713B8C2AB0792300AC876A /* SleepOverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B8B2AB0792300AC876A /* SleepOverButton.swift */; };
@@ -35,6 +36,7 @@
 		42D622892AB05346005E3779 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		42D6228B2AB05EAB005E3779 /* CustomTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
 		42D6228D2AB05F5B005E3779 /* CustomTabExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabExtension.swift; sourceTree = "<group>"; };
+		751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		75713B872AB078E100AC876A /* SleepOverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverCell.swift; sourceTree = "<group>"; };
 		75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverReasonCell.swift; sourceTree = "<group>"; };
 		75713B8B2AB0792300AC876A /* SleepOverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverButton.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				75A216502AB9927E00B78C67 /* Info.plist */,
+				751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */,
 				75A2164D2AB98D2400B78C67 /* GoogleLogin */,
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
 				75F447E02A9F693900D8B8AB /* ContentView.swift */,
@@ -224,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751CBA962ABD3DF600575DCE /* Launch Screen.storyboard in Resources */,
 				75F447D82A9F60FB00D8B8AB /* Preview Assets.xcassets in Resources */,
 				75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */,
 			);
@@ -395,7 +399,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "체크인";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -432,7 +435,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "체크인";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

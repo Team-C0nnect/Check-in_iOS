@@ -12,7 +12,6 @@ struct CustomTabView: View {
     
     @State var selected: Int = 0
     
-    
     let content: [CustomTabItem]
     
     init(@CustomTabViewBuilder content: () -> [CustomTabItem]) {

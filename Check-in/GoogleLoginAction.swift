@@ -37,7 +37,9 @@ struct GoogleLoginAction {
                         let data = try decoder.decode(GoogleLoginModel.self, from: get!)
                         print(data)
                     }
-                    catch (_) {}
+                    catch (_) {
+                        fatalError()
+                    }
                 case .failure(let error):
                     print("에러 : \(error)")
                     
