@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42D622882AB05036005E3779 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D622872AB05036005E3779 /* CustomButtonView.swift */; };
-		42D6228A2AB05346005E3779 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D622892AB05346005E3779 /* CustomTabView.swift */; };
-		42D6228C2AB05EAB005E3779 /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6228B2AB05EAB005E3779 /* CustomTabItem.swift */; };
-		42D6228E2AB05F5B005E3779 /* CustomTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6228D2AB05F5B005E3779 /* CustomTabExtension.swift */; };
 		751CBA962ABD3DF600575DCE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */; };
 		75713B882AB078E100AC876A /* SleepOverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B872AB078E100AC876A /* SleepOverCell.swift */; };
 		75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */; };
@@ -41,10 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42D622872AB05036005E3779 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
-		42D622892AB05346005E3779 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
-		42D6228B2AB05EAB005E3779 /* CustomTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
-		42D6228D2AB05F5B005E3779 /* CustomTabExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabExtension.swift; sourceTree = "<group>"; };
 		751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		75713B872AB078E100AC876A /* SleepOverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverCell.swift; sourceTree = "<group>"; };
 		75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverReasonCell.swift; sourceTree = "<group>"; };
@@ -88,17 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42D622862AB04FFD005E3779 /* CustomTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				42D622892AB05346005E3779 /* CustomTabView.swift */,
-				42D622872AB05036005E3779 /* CustomButtonView.swift */,
-				42D6228B2AB05EAB005E3779 /* CustomTabItem.swift */,
-				42D6228D2AB05F5B005E3779 /* CustomTabExtension.swift */,
-			);
-			path = CustomTabBar;
-			sourceTree = "<group>";
-		};
 		757C76532AA712FB008F250C /* MovieVote */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +138,6 @@
 				757C76532AA712FB008F250C /* MovieVote */,
 				757C76542AA7130E008F250C /* SleepOver */,
 				75F447E22A9F694100D8B8AB /* Main */,
-				42D622862AB04FFD005E3779 /* CustomTabBar */,
 				75F447D42A9F60FB00D8B8AB /* Assets.xcassets */,
 				75F447D62A9F60FB00D8B8AB /* Preview Content */,
 			);
@@ -271,16 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D6228E2AB05F5B005E3779 /* CustomTabExtension.swift in Sources */,
-				42D622882AB05036005E3779 /* CustomButtonView.swift in Sources */,
 				75A2164F2AB98D3F00B78C67 /* GoogleLoginAction.swift in Sources */,
 				75F447DF2A9F638900D8B8AB /* MainViewCell.swift in Sources */,
 				75713B882AB078E100AC876A /* SleepOverCell.swift in Sources */,
 				75F447D32A9F60F600D8B8AB /* MainView.swift in Sources */,
 				75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */,
-				42D6228A2AB05346005E3779 /* CustomTabView.swift in Sources */,
 				75A216522AB9B32700B78C67 /* GoogleLoginModel.swift in Sources */,
-				42D6228C2AB05EAB005E3779 /* CustomTabItem.swift in Sources */,
 				75F447E42A9F71C100D8B8AB /* MovieVoteView.swift in Sources */,
 				75F447E62A9F721900D8B8AB /* SleepOverView.swift in Sources */,
 				75F447E12A9F693900D8B8AB /* ContentView.swift in Sources */,
