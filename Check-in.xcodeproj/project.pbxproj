@@ -25,7 +25,7 @@
 		75F447E12A9F693900D8B8AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447E02A9F693900D8B8AB /* ContentView.swift */; };
 		75F447E42A9F71C100D8B8AB /* MovieVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447E32A9F71C100D8B8AB /* MovieVoteView.swift */; };
 		75F447E62A9F721900D8B8AB /* SleepOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447E52A9F721900D8B8AB /* SleepOverView.swift */; };
-		75FF30902AD53FC0000AE65E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75FF308F2AD53FC0000AE65E /* GoogleService-Info.plist */; };
+		75F727622AD5684D001A771C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75F727612AD5684D001A771C /* GoogleService-Info.plist */; };
 		75FF30932AD54048000AE65E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30922AD54048000AE65E /* FirebaseAnalytics */; };
 		75FF30952AD54048000AE65E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30942AD54048000AE65E /* FirebaseAnalyticsOnDeviceConversion */; };
 		75FF30972AD54048000AE65E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30962AD54048000AE65E /* FirebaseAnalyticsSwift */; };
@@ -54,7 +54,7 @@
 		75F447E02A9F693900D8B8AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75F447E32A9F71C100D8B8AB /* MovieVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVoteView.swift; sourceTree = "<group>"; };
 		75F447E52A9F721900D8B8AB /* SleepOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverView.swift; sourceTree = "<group>"; };
-		75FF308F2AD53FC0000AE65E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75F727612AD5684D001A771C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75FF30C82AD544A1000AE65E /* Check-in.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Check-in.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,7 @@
 			children = (
 				75FF30C82AD544A1000AE65E /* Check-in.entitlements */,
 				75A216502AB9927E00B78C67 /* Info.plist */,
-				75FF308F2AD53FC0000AE65E /* GoogleService-Info.plist */,
+				75F727612AD5684D001A771C /* GoogleService-Info.plist */,
 				751CBA952ABD3DF600575DCE /* Launch Screen.storyboard */,
 				75A2164D2AB98D2400B78C67 /* GoogleLogin */,
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				751CBA962ABD3DF600575DCE /* Launch Screen.storyboard in Resources */,
-				75FF30902AD53FC0000AE65E /* GoogleService-Info.plist in Resources */,
+				75F727622AD5684D001A771C /* GoogleService-Info.plist in Resources */,
 				75F447D82A9F60FB00D8B8AB /* Preview Assets.xcassets in Resources */,
 				75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */,
 			);
