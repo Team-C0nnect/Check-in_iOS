@@ -9,13 +9,17 @@ import SwiftUI
 
 struct SleepOverButton: View {
     var body: some View {
-        Rectangle()
-            .foregroundColor(Color("KindaGray"))
-            .frame(width: 333, height: 50)
-            .overlay {
-                Text("신청")
-                    .font(Font.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
-            }
+        Button(action: {print("외박 신청")}) {
+            
+        }
+        .frame(width: 333, height: 50)
+        .background(Color.accentColor)
+        .overlay {
+            Text("신청")
+                .font(Font.custom("Apple SD Gothic Neo", size: 20).weight(.medium))
+                .foregroundStyle(.white)
+        }
+        .cornerRadius(15)
             
 
     }

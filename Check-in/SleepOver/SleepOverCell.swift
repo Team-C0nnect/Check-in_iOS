@@ -41,6 +41,7 @@ struct SleepOverCell: View {
                         .font(Font.custom("Apple SD Gothic Neo", size: 16).weight(.semibold))
                     
                 }
+                .cornerRadius(15)
             
             if showDatePicker {
                 DatePicker("", selection: $date, displayedComponents: .date)

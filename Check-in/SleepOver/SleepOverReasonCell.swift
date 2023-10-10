@@ -17,6 +17,7 @@ struct SleepOverReasonCell: View {
             Rectangle()
                 .frame(width: 333, height: 120, alignment: .center)
                 .foregroundColor(Color("KindaGray"))
+                .cornerRadius(15)
         }
     }
 }

@@ -58,7 +58,6 @@ struct ContentView: View {
                                          action: {self.tabIndex = .sleepOver})
                             .frame(width: geometry.size.width / 3, height: 50)
                     }
-                    .padding(.top)
                 }
             }
         }
