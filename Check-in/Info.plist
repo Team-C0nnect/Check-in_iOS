@@ -28,11 +28,8 @@
 	</array>
 	<key>UILaunchScreen</key>
 	<dict>
-		<key>UILaunchScreen</key>
-		<dict>
-			<key>Launch Screen</key>
-			<string></string>
-		</dict>
+		<key>UIImageName</key>
+		<string>launchScreen</string>
 	</dict>
 </dict>
 </plist>
