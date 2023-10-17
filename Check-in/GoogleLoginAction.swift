@@ -16,6 +16,8 @@ import GoogleSignIn
 import GoogleSignInSwift
 
 
+
+
 struct GoogleLoginAction {
     
     let url = "http://43.202.136.92:8080"
@@ -30,13 +32,11 @@ struct GoogleLoginAction {
         GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in
             print(Messaging.messaging().apnsToken);
             Messaging.messaging().token { token, error in
-                if let error = error {
-                    print("Error: \(error)")
-                    
-                    print("idToken", signInResult?.user.idToken?.tokenString ?? "", "fcmToken", token ?? "")
+                
+                if let fcmToken = token {
                     AF.request("\(url)/auth",
                                method: .post,
-                               parameters: ["idToken":signInResult?.user.idToken?.tokenString ?? "", "fcmToken":token ?? ""] as Dictionary,
+                               parameters: ["idToken":signInResult?.user.idToken?.tokenString ?? "", "fcmToken":fcmToken] as Dictionary,
                                encoding: JSONEncoding(),
                                headers: header)
                     
@@ -46,10 +46,10 @@ struct GoogleLoginAction {
                             print("POST 성공")
                             do {
                                 let data = try decoder.decode(GoogleLoginModel.self, from: get!)
-                                print(data)
+                                
                             }
                             catch (_) {
-                                fatalError()
+                                
                             }
                         case .failure(let error):
                             print("에러 : \(error)")
@@ -57,9 +57,7 @@ struct GoogleLoginAction {
                         }
                         
                     }
-                    
                 }
-                
                 
                 
                 

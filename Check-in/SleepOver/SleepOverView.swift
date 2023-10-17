@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SleepOverView: View {
     var body: some View {
-        VStack {
+        ScrollView {
             HStack {
                 VStack(alignment: .leading) {
                     Text("외박 신청")
@@ -20,7 +20,7 @@ struct SleepOverView: View {
                 .padding(.leading, 30)
                 Spacer()
             }
-            ScrollView {
+            VStack {
                 SleepOverCell("외박 날짜")
                 SleepOverCell("복귀 날짜")
                 SleepOverReasonCell()
@@ -28,7 +28,8 @@ struct SleepOverView: View {
             .padding(.top, 43)
             
             SleepOverButton()
-            Spacer()
+                .padding(.top, 15)
+            
         }
     }
 }

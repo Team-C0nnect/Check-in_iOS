@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F560928E-4562-4F53-B8BB-175972F36EFD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F560928E-4562-4F53-B8BB-175972F36EFD - c69c2c2dfc9242fe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "248">
-               </Location>
-               <Location
-                  uuid = "F560928E-4562-4F53-B8BB-175972F36EFD - c69c2c2dfc9242fe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "256">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E3DF298D-1BAD-4C07-89A0-078AA4575971"
             shouldBeEnabled = "No"
             ignoreCount = "0"

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SleepOverReasonCell: View {
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             Text("외박 사유")
