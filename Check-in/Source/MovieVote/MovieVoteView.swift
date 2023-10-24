@@ -38,8 +38,6 @@ struct MovieVoteView: View {
                         
                     }
                     .tint(.accent)
-                    
-                    
                 }
                 
             }

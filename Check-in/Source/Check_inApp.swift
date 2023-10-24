@@ -44,7 +44,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 extension AppDelegate: MessagingDelegate {
 
     func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
-        print(fcmToken ?? "")
+        
     }
 }
 
@@ -57,7 +57,7 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
         
         let userInfo = notification.request.content.userInfo
         
-        print("willPresent: userInfo: ", userInfo)
+        
         
         completionHandler([.banner, .sound, .badge])
     }
@@ -67,7 +67,7 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
         let userInfo = response.notification.request.content.userInfo
-        print("didReceive: userInfo: ", userInfo)
+        
         completionHandler()
     }
     
@@ -78,7 +78,7 @@ struct Check_inApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            SignInView()
+            ContentView(tabIndex: .home)
         }
     }
 }

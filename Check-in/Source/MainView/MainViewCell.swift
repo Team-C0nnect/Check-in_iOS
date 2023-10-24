@@ -9,7 +9,13 @@ import SwiftUI
 
 struct MainViewCell: View {
     
-    @State var label: String
+    let label: String
+    let content: AnyView
+    
+    init(label: String, content: AnyView = AnyView(Text(""))) {
+        self.label = label
+        self.content = content
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 3) {
@@ -20,6 +26,8 @@ struct MainViewCell: View {
             RoundedRectangle(cornerRadius: 13)
                 .frame(width: 336, height: 224)
                 .foregroundColor(Color("KindaGray"))
+                .overlay(content)
+                
         }
         
     }
@@ -27,6 +35,6 @@ struct MainViewCell: View {
 
 struct MainViewCell_Previews: PreviewProvider {
     static var previews: some View {
-        MainViewCell(label: "신민호")
+        MainViewCell(label: "신민호", content: AnyView(Text("이승혁지찌")))
     }
 }

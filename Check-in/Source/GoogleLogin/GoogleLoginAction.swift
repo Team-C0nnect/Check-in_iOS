@@ -34,6 +34,7 @@ struct GoogleLoginAction {
             Messaging.messaging().token { token, error in
                 
                 if let fcmToken = token {
+                    print(fcmToken)
                     AF.request("\(url)/auth",
                                method: .post,
                                parameters: ["idToken":signInResult?.user.idToken?.tokenString ?? "", "fcmToken":fcmToken] as Dictionary,
@@ -45,7 +46,7 @@ struct GoogleLoginAction {
                         case .success(let get):
                             print("POST 성공")
                             do {
-                                //let data = try decoder.decode(GoogleLoginModel.self, from: get!)
+                                let data = try decoder.decode(GoogleLoginModel.self, from: get!)
                                 
                                 
                                 
