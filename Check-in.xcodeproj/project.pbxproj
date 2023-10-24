@@ -10,6 +10,9 @@
 		426F3F5B2AD56A8500D1C553 /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F3F582AD56A8500D1C553 /* CustomTabItem.swift */; };
 		426F3F5C2AD56A8500D1C553 /* CustomTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F3F592AD56A8500D1C553 /* CustomTabExtension.swift */; };
 		426F3F5D2AD56A8500D1C553 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F3F5A2AD56A8500D1C553 /* CustomButtonView.swift */; };
+		7565EBE12ADE9C7100C99549 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565EBE02ADE9C7100C99549 /* SignInView.swift */; };
+		7565EBE32ADEA25000C99549 /* SignInRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565EBE22ADEA25000C99549 /* SignInRegisterView.swift */; };
+		7565EBE52ADEA30A00C99549 /* SignInRegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565EBE42ADEA30A00C99549 /* SignInRegisterCell.swift */; };
 		75713B882AB078E100AC876A /* SleepOverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B872AB078E100AC876A /* SleepOverCell.swift */; };
 		75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */; };
 		75713B8C2AB0792300AC876A /* SleepOverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75713B8B2AB0792300AC876A /* SleepOverButton.swift */; };
@@ -19,6 +22,7 @@
 		758A26C52AB96D210006E1C7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C42AB96D210006E1C7 /* GoogleSignInSwift */; };
 		75A2164F2AB98D3F00B78C67 /* GoogleLoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2164E2AB98D3F00B78C67 /* GoogleLoginAction.swift */; };
 		75A216522AB9B32700B78C67 /* GoogleLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A216512AB9B32700B78C67 /* GoogleLoginModel.swift */; };
+		75CDFD502AE7AF950057B3EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */; };
 		75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447D02A9F60F600D8B8AB /* Check_inApp.swift */; };
 		75F447D32A9F60F600D8B8AB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447D22A9F60F600D8B8AB /* MainView.swift */; };
 		75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F447D42A9F60FB00D8B8AB /* Assets.xcassets */; };
@@ -27,7 +31,6 @@
 		75F447E12A9F693900D8B8AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447E02A9F693900D8B8AB /* ContentView.swift */; };
 		75F447E42A9F71C100D8B8AB /* MovieVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447E32A9F71C100D8B8AB /* MovieVoteView.swift */; };
 		75F447E62A9F721900D8B8AB /* SleepOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447E52A9F721900D8B8AB /* SleepOverView.swift */; };
-		75F727622AD5684D001A771C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75F727612AD5684D001A771C /* GoogleService-Info.plist */; };
 		75FF30932AD54048000AE65E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30922AD54048000AE65E /* FirebaseAnalytics */; };
 		75FF30952AD54048000AE65E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30942AD54048000AE65E /* FirebaseAnalyticsOnDeviceConversion */; };
 		75FF30972AD54048000AE65E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30962AD54048000AE65E /* FirebaseAnalyticsSwift */; };
@@ -42,6 +45,9 @@
 		426F3F582AD56A8500D1C553 /* CustomTabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
 		426F3F592AD56A8500D1C553 /* CustomTabExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabExtension.swift; sourceTree = "<group>"; };
 		426F3F5A2AD56A8500D1C553 /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		7565EBE02ADE9C7100C99549 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		7565EBE22ADEA25000C99549 /* SignInRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRegisterView.swift; sourceTree = "<group>"; };
+		7565EBE42ADEA30A00C99549 /* SignInRegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRegisterCell.swift; sourceTree = "<group>"; };
 		75713B872AB078E100AC876A /* SleepOverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverCell.swift; sourceTree = "<group>"; };
 		75713B892AB078FF00AC876A /* SleepOverReasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverReasonCell.swift; sourceTree = "<group>"; };
 		75713B8B2AB0792300AC876A /* SleepOverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverButton.swift; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 		75A2164E2AB98D3F00B78C67 /* GoogleLoginAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginAction.swift; sourceTree = "<group>"; };
 		75A216502AB9927E00B78C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75A216512AB9B32700B78C67 /* GoogleLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginModel.swift; sourceTree = "<group>"; };
+		75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75F447CD2A9F60F600D8B8AB /* Check-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Check-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F447D02A9F60F600D8B8AB /* Check_inApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_inApp.swift; sourceTree = "<group>"; };
 		75F447D22A9F60F600D8B8AB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -58,7 +65,6 @@
 		75F447E02A9F693900D8B8AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75F447E32A9F71C100D8B8AB /* MovieVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVoteView.swift; sourceTree = "<group>"; };
 		75F447E52A9F721900D8B8AB /* SleepOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOverView.swift; sourceTree = "<group>"; };
-		75F727612AD5684D001A771C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75FF30C82AD544A1000AE65E /* Check-in.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Check-in.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,17 +150,20 @@
 			isa = PBXGroup;
 			children = (
 				75FF30C82AD544A1000AE65E /* Check-in.entitlements */,
-				75A216502AB9927E00B78C67 /* Info.plist */,
-				75F727612AD5684D001A771C /* GoogleService-Info.plist */,
-				75A2164D2AB98D2400B78C67 /* GoogleLogin */,
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
 				75F447E02A9F693900D8B8AB /* ContentView.swift */,
+				75A216502AB9927E00B78C67 /* Info.plist */,
+				75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */,
+				75A2164D2AB98D2400B78C67 /* GoogleLogin */,
 				757C76532AA712FB008F250C /* MovieVote */,
 				75F447E22A9F694100D8B8AB /* Main */,
 				757C76542AA7130E008F250C /* SleepOver */,
 				426F3F572AD56A8500D1C553 /* CustomTabBar */,
 				75F447D42A9F60FB00D8B8AB /* Assets.xcassets */,
 				75F447D62A9F60FB00D8B8AB /* Preview Content */,
+				7565EBE02ADE9C7100C99549 /* SignInView.swift */,
+				7565EBE22ADEA25000C99549 /* SignInRegisterView.swift */,
+				7565EBE42ADEA30A00C99549 /* SignInRegisterCell.swift */,
 			);
 			path = "Check-in";
 			sourceTree = "<group>";
@@ -226,11 +235,12 @@
 			};
 			buildConfigurationList = 75F447C82A9F60F600D8B8AB /* Build configuration list for PBXProject "Check-in" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 75F447C42A9F60F600D8B8AB;
 			packageReferences = (
@@ -252,7 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F727622AD5684D001A771C /* GoogleService-Info.plist in Resources */,
+				75CDFD502AE7AF950057B3EA /* GoogleService-Info.plist in Resources */,
 				75F447D82A9F60FB00D8B8AB /* Preview Assets.xcassets in Resources */,
 				75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */,
 			);
@@ -273,12 +283,15 @@
 				426F3F5C2AD56A8500D1C553 /* CustomTabExtension.swift in Sources */,
 				75F447D32A9F60F600D8B8AB /* MainView.swift in Sources */,
 				75713B8A2AB078FF00AC876A /* SleepOverReasonCell.swift in Sources */,
+				7565EBE32ADEA25000C99549 /* SignInRegisterView.swift in Sources */,
 				75A216522AB9B32700B78C67 /* GoogleLoginModel.swift in Sources */,
 				75F447E42A9F71C100D8B8AB /* MovieVoteView.swift in Sources */,
 				75F447E62A9F721900D8B8AB /* SleepOverView.swift in Sources */,
 				75F447E12A9F693900D8B8AB /* ContentView.swift in Sources */,
 				75713B8C2AB0792300AC876A /* SleepOverButton.swift in Sources */,
+				7565EBE52ADEA30A00C99549 /* SignInRegisterCell.swift in Sources */,
 				75713B932AB082DF00AC876A /* GoogleLoginButton.swift in Sources */,
+				7565EBE12ADE9C7100C99549 /* SignInView.swift in Sources */,
 				75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,16 +425,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Check-in/Check-in.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Check-in/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T298342GA3;
+				DEVELOPMENT_TEAM = C22QH9P7HR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Check-in/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "체크인";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(BUNDLE_DISPLAY_NAME) 을 위해 카메라가 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -432,10 +444,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hs.dgsw.ios.check;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hs.dgsw.ios.check2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "dev-checkin";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -452,16 +463,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Check-in/Check-in.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Check-in/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T298342GA3;
+				DEVELOPMENT_TEAM = C22QH9P7HR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Check-in/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "체크인";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(BUNDLE_DISPLAY_NAME) 을 위해 카메라가 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -472,10 +482,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hs.dgsw.ios.check;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hs.dgsw.ios.check2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "dev-checkin";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

@@ -12,7 +12,7 @@ struct MainView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 30) {
                 MainViewCell(label: "최근 외박 신청")
-                    
+                    .padding(.top, 40)
                 MainViewCell(label: "출석 체크 여부")
                     
                 

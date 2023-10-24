@@ -13,9 +13,13 @@ import Alamofire
 struct GoogleLoginButton: View {
 
     var body: some View {
-        GoogleSignInButton {
+        GoogleSignInButton() {
             GoogleLoginAction().googleLogin()
+                
+            
         }
+        
+        .clipShape(RoundedRectangle(cornerRadius: 12))
         
         
     }

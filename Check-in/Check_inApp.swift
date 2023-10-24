@@ -78,7 +78,7 @@ struct Check_inApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView(tabIndex: .home)
+            SignInView()
         }
     }
 }

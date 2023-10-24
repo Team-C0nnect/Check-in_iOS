@@ -30,7 +30,7 @@ struct GoogleLoginAction {
         guard let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController else { return }
         
         GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in
-            print(Messaging.messaging().apnsToken);
+            
             Messaging.messaging().token { token, error in
                 
                 if let fcmToken = token {
@@ -45,7 +45,9 @@ struct GoogleLoginAction {
                         case .success(let get):
                             print("POST 성공")
                             do {
-                                let data = try decoder.decode(GoogleLoginModel.self, from: get!)
+                                //let data = try decoder.decode(GoogleLoginModel.self, from: get!)
+                                
+                                
                                 
                             }
                             catch (_) {
