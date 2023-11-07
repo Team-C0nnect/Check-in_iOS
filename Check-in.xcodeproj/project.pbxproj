@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42E100AE2AFA28CF00D3208D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100AD2AFA28CF00D3208D /* ContentView.swift */; };
+		42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100AF2AFA28D500D3208D /* SideBarView.swift */; };
+		42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100B22AFA28DF00D3208D /* MenuView.swift */; };
+		42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100B52AFA28E500D3208D /* CustomNavigationBarView.swift */; };
+		42E100B82AFA28E500D3208D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100B62AFA28E500D3208D /* LogoView.swift */; };
 		751307E22AFA1EAF00A7B752 /* MovieRequestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */; };
 		75713B962AB0831D00AC876A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 75713B952AB0831D00AC876A /* Alamofire */; };
 		757641012AE7B84A0070F2C9 /* SleepOverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640EB2AE7B84A0070F2C9 /* SleepOverButton.swift */; };
@@ -19,7 +24,6 @@
 		757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F52AE7B84A0070F2C9 /* CustomTabItem.swift */; };
 		757641092AE7B84A0070F2C9 /* CustomTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F62AE7B84A0070F2C9 /* CustomTabExtension.swift */; };
 		7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F72AE7B84A0070F2C9 /* CustomButtonView.swift */; };
-		7576410B2AE7B84A0070F2C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F82AE7B84A0070F2C9 /* ContentView.swift */; };
 		7576410C2AE7B84A0070F2C9 /* SignInRegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FA2AE7B84A0070F2C9 /* SignInRegisterCell.swift */; };
 		7576410D2AE7B84A0070F2C9 /* SignInRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FB2AE7B84A0070F2C9 /* SignInRegisterView.swift */; };
 		7576410E2AE7B84A0070F2C9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FC2AE7B84A0070F2C9 /* SignInView.swift */; };
@@ -49,6 +53,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42E100AD2AFA28CF00D3208D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42E100AF2AFA28D500D3208D /* SideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		42E100B22AFA28DF00D3208D /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		42E100B52AFA28E500D3208D /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
+		42E100B62AFA28E500D3208D /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestAction.swift; sourceTree = "<group>"; };
 		757640EB2AE7B84A0070F2C9 /* SleepOverButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverButton.swift; sourceTree = "<group>"; };
 		757640EC2AE7B84A0070F2C9 /* SleepOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverView.swift; sourceTree = "<group>"; };
@@ -60,7 +69,6 @@
 		757640F52AE7B84A0070F2C9 /* CustomTabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
 		757640F62AE7B84A0070F2C9 /* CustomTabExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabExtension.swift; sourceTree = "<group>"; };
 		757640F72AE7B84A0070F2C9 /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
-		757640F82AE7B84A0070F2C9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		757640FA2AE7B84A0070F2C9 /* SignInRegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterCell.swift; sourceTree = "<group>"; };
 		757640FB2AE7B84A0070F2C9 /* SignInRegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterView.swift; sourceTree = "<group>"; };
 		757640FC2AE7B84A0070F2C9 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -104,6 +112,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42E100B12AFA28DF00D3208D /* CustomSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				42E100B22AFA28DF00D3208D /* MenuView.swift */,
+			);
+			path = CustomSideBar;
+			sourceTree = "<group>";
+		};
+		42E100B42AFA28E500D3208D /* CustomNavigationBarView */ = {
+			isa = PBXGroup;
+			children = (
+				42E100B52AFA28E500D3208D /* CustomNavigationBarView.swift */,
+				42E100B62AFA28E500D3208D /* LogoView.swift */,
+			);
+			path = CustomNavigationBarView;
+			sourceTree = "<group>";
+		};
 		757640E92AE7B7B20070F2C9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +199,7 @@
 		757641122AE7B9730070F2C9 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
-				757640F82AE7B84A0070F2C9 /* ContentView.swift */,
+				42E100AD2AFA28CF00D3208D /* ContentView.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -195,9 +220,12 @@
 			isa = PBXGroup;
 			children = (
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
+				42E100AF2AFA28D500D3208D /* SideBarView.swift */,
 				757641172AE7E2990070F2C9 /* MoiveRequestView */,
 				757641122AE7B9730070F2C9 /* ContentView */,
 				757640F42AE7B84A0070F2C9 /* CustomTabBar */,
+				42E100B12AFA28DF00D3208D /* CustomSideBar */,
+				42E100B42AFA28E500D3208D /* CustomNavigationBarView */,
 				757640FD2AE7B84A0070F2C9 /* GoogleLogin */,
 				757640EF2AE7B84A0070F2C9 /* MainView */,
 				757640F22AE7B84A0070F2C9 /* MovieVote */,
@@ -338,8 +366,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				757641092AE7B84A0070F2C9 /* CustomTabExtension.swift in Sources */,
+				42E100B82AFA28E500D3208D /* LogoView.swift in Sources */,
 				75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */,
-				7576410B2AE7B84A0070F2C9 /* ContentView.swift in Sources */,
 				757641062AE7B84A0070F2C9 /* MainView.swift in Sources */,
 				7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */,
 				757641102AE7B84A0070F2C9 /* GoogleLoginButton.swift in Sources */,
@@ -347,14 +375,18 @@
 				757641022AE7B84A0070F2C9 /* SleepOverView.swift in Sources */,
 				757641112AE7B84A0070F2C9 /* GoogleLoginAction.swift in Sources */,
 				75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */,
+				42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */,
+				42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */,
 				7576410D2AE7B84A0070F2C9 /* SignInRegisterView.swift in Sources */,
 				7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */,
 				7576410C2AE7B84A0070F2C9 /* SignInRegisterCell.swift in Sources */,
 				75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */,
+				42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */,
 				7576410E2AE7B84A0070F2C9 /* SignInView.swift in Sources */,
 				757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */,
 				757641052AE7B84A0070F2C9 /* MainViewCell.swift in Sources */,
 				757641192AE7E2B50070F2C9 /* MovieRequestView.swift in Sources */,
+				42E100AE2AFA28CF00D3208D /* ContentView.swift in Sources */,
 				757641042AE7B84A0070F2C9 /* SleepOverCell.swift in Sources */,
 				757641012AE7B84A0070F2C9 /* SleepOverButton.swift in Sources */,
 				757641072AE7B84A0070F2C9 /* MovieVoteView.swift in Sources */,
