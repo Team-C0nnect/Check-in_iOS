@@ -10,7 +10,7 @@ import SwiftUI
 struct SignInView: View {
     var body: some View {
         ZStack {
-            Color("LightGray")
+            Color("WhiteGray")
                 .ignoresSafeArea()
             
             VStack(spacing: 70) {

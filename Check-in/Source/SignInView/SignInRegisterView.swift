@@ -11,7 +11,7 @@ struct SignInRegisterView: View {
     @State var name: String = ""
     var body: some View {
         ZStack {
-            Color("LightGray")
+            Color("WhiteGray")
                 .ignoresSafeArea()
             
             VStack {
@@ -28,6 +28,7 @@ struct SignInRegisterView: View {
                 .padding(.top, 40)
                 
                 SignInRegisterCell(title: "이름", text: $name)
+            
                 
                 Spacer()
             }

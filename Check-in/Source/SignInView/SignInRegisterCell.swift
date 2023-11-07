@@ -21,6 +21,7 @@ struct SignInRegisterCell: View {
         VStack(alignment: .leading, spacing: 0) {
             Text(title)
                 .font(.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
+            
             TextField("", text: $text)
                 
                 .textInputAutocapitalization(.never)

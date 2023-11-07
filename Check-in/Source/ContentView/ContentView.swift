@@ -16,7 +16,6 @@ struct ContentView: View {
     
     @State var viewName: String = "홈"
     @State var tabIndex: TabIndex
-    @Binding var showMenu: Bool
     
     func changeView(tabIndex: TabIndex) -> AnyView {
         switch tabIndex {
@@ -33,9 +32,6 @@ struct ContentView: View {
         NavigationView {
             GeometryReader { geometry in
                 VStack {
-                    CustomNavigationBarView(showMenu: $showMenu)
-                        .padding(.bottom, 5)
-                    
                     self.changeView(tabIndex: self.tabIndex)
                     
                     Spacer()
@@ -45,23 +41,36 @@ struct ContentView: View {
                                          self.tabIndex == .movie ? Color.accentColor : Color.kindaGray,
                                          true,
                                          action: {self.tabIndex = .movie})
-                        .frame(width: geometry.size.width / 3, height: 50)
+                            .frame(width: geometry.size.width / 3, height: 50)
                         
                         CustomButtonView("홈", "house.fill",
                                          self.tabIndex == .home ? Color.accentColor : Color.kindaGray,
                                          true,
                                          action: {self.tabIndex = .home})
-                        .frame(width: geometry.size.width / 3, height: 50)
+                            .frame(width: geometry.size.width / 3, height: 50)
                         
                         CustomButtonView("외박신청", "powersleep",
                                          self.tabIndex == .sleepOver ? Color.accentColor : Color.kindaGray,
                                          true,
                                          action: {self.tabIndex = .sleepOver})
-                        .frame(width: geometry.size.width / 3, height: 50)
+                            .frame(width: geometry.size.width / 3, height: 50)
                     }
                 }
             }
             .navigationBarHidden(true)
         }
+
+            
+        
+        
+        
     }
 }
+
+struct MyPreviewProvider_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(tabIndex: .home)
+    }
+}
+
+

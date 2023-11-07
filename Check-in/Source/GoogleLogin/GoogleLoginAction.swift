@@ -46,7 +46,7 @@ struct GoogleLoginAction {
                         case .success(let get):
                             print("POST 성공")
                             do {
-                                let data = try decoder.decode(GoogleLoginModel.self, from: get!)
+                                let tokenData = try decoder.decode(GoogleLoginModel.self, from: get!)
                                 
                                 
                                 

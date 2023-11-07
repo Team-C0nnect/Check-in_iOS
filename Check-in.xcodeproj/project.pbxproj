@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751307E22AFA1EAF00A7B752 /* MovieRequestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */; };
 		75713B962AB0831D00AC876A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 75713B952AB0831D00AC876A /* Alamofire */; };
 		757641012AE7B84A0070F2C9 /* SleepOverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640EB2AE7B84A0070F2C9 /* SleepOverButton.swift */; };
 		757641022AE7B84A0070F2C9 /* SleepOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640EC2AE7B84A0070F2C9 /* SleepOverView.swift */; };
@@ -29,7 +30,9 @@
 		758A26C32AB96D210006E1C7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C22AB96D210006E1C7 /* GoogleSignIn */; };
 		758A26C52AB96D210006E1C7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C42AB96D210006E1C7 /* GoogleSignInSwift */; };
 		75B2A0022AF0EDF7007DF2A4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 75B2A0012AF0EDF7007DF2A4 /* .gitignore */; };
-		75B2A0042AF0EEA1007DF2A4 /* NaverClientID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0032AF0EEA1007DF2A4 /* NaverClientID.swift */; };
+		75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */; };
+		75B2A00A2AF10EBD007DF2A4 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */; };
+		75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A00D2AF1C11C007DF2A4 /* MovieResearch.swift */; };
 		75CDFD502AE7AF950057B3EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */; };
 		75CDFD532AE7B6A40057B3EA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDFD522AE7B6A40057B3EA /* CodeScanner */; };
 		75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447D02A9F60F600D8B8AB /* Check_inApp.swift */; };
@@ -46,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestAction.swift; sourceTree = "<group>"; };
 		757640EB2AE7B84A0070F2C9 /* SleepOverButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverButton.swift; sourceTree = "<group>"; };
 		757640EC2AE7B84A0070F2C9 /* SleepOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverView.swift; sourceTree = "<group>"; };
 		757640ED2AE7B84A0070F2C9 /* SleepOverReasonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverReasonCell.swift; sourceTree = "<group>"; };
@@ -66,7 +70,9 @@
 		757641182AE7E2B50070F2C9 /* MovieRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestView.swift; sourceTree = "<group>"; };
 		75A216502AB9927E00B78C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75B2A0012AF0EDF7007DF2A4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		75B2A0032AF0EEA1007DF2A4 /* NaverClientID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverClientID.swift; sourceTree = "<group>"; };
+		75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResModel.swift; sourceTree = "<group>"; };
+		75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
+		75B2A00D2AF1C11C007DF2A4 /* MovieResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResearch.swift; sourceTree = "<group>"; };
 		75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75F447CD2A9F60F600D8B8AB /* Check-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Check-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F447D02A9F60F600D8B8AB /* Check_inApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_inApp.swift; sourceTree = "<group>"; };
@@ -173,20 +179,23 @@
 			path = ContentView;
 			sourceTree = "<group>";
 		};
-		757641172AE7E2990070F2C9 /* MoiveRequest */ = {
+		757641172AE7E2990070F2C9 /* MoiveRequestView */ = {
 			isa = PBXGroup;
 			children = (
 				757641182AE7E2B50070F2C9 /* MovieRequestView.swift */,
-				75B2A0032AF0EEA1007DF2A4 /* NaverClientID.swift */,
+				75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */,
+				75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */,
+				75B2A00D2AF1C11C007DF2A4 /* MovieResearch.swift */,
+				751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */,
 			);
-			path = MoiveRequest;
+			path = MoiveRequestView;
 			sourceTree = "<group>";
 		};
 		75CDFD552AE7B6F40057B3EA /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				757641172AE7E2990070F2C9 /* MoiveRequest */,
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
+				757641172AE7E2990070F2C9 /* MoiveRequestView */,
 				757641122AE7B9730070F2C9 /* ContentView */,
 				757640F42AE7B84A0070F2C9 /* CustomTabBar */,
 				757640FD2AE7B84A0070F2C9 /* GoogleLogin */,
@@ -330,7 +339,6 @@
 			files = (
 				757641092AE7B84A0070F2C9 /* CustomTabExtension.swift in Sources */,
 				75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */,
-				75B2A0042AF0EEA1007DF2A4 /* NaverClientID.swift in Sources */,
 				7576410B2AE7B84A0070F2C9 /* ContentView.swift in Sources */,
 				757641062AE7B84A0070F2C9 /* MainView.swift in Sources */,
 				7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */,
@@ -338,9 +346,11 @@
 				757641032AE7B84A0070F2C9 /* SleepOverReasonCell.swift in Sources */,
 				757641022AE7B84A0070F2C9 /* SleepOverView.swift in Sources */,
 				757641112AE7B84A0070F2C9 /* GoogleLoginAction.swift in Sources */,
+				75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */,
 				7576410D2AE7B84A0070F2C9 /* SignInRegisterView.swift in Sources */,
 				7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */,
 				7576410C2AE7B84A0070F2C9 /* SignInRegisterCell.swift in Sources */,
+				75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */,
 				7576410E2AE7B84A0070F2C9 /* SignInView.swift in Sources */,
 				757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */,
 				757641052AE7B84A0070F2C9 /* MainViewCell.swift in Sources */,
@@ -348,6 +358,8 @@
 				757641042AE7B84A0070F2C9 /* SleepOverCell.swift in Sources */,
 				757641012AE7B84A0070F2C9 /* SleepOverButton.swift in Sources */,
 				757641072AE7B84A0070F2C9 /* MovieVoteView.swift in Sources */,
+				75B2A00A2AF10EBD007DF2A4 /* KobisKey.swift in Sources */,
+				751307E22AFA1EAF00A7B752 /* MovieRequestAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

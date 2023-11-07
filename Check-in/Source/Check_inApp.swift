@@ -76,10 +76,9 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
 @main
 struct Check_inApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
     var body: some Scene {
         WindowGroup {
-            SideBarView()
+           MovieRequestView()
         }
     }
 }
