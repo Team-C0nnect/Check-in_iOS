@@ -47,19 +47,34 @@ struct ContentView: View {
                         CustomButtonView("영화투표", "play.tv.fill",
                                          self.tabIndex == .movie ? Color.accentColor : Color.kindaGray,
                                          true,
-                                         action: {self.tabIndex = .movie})
+                                         action: {
+                                            withAnimation() {
+                                                self.tabIndex = .movie
+                                            }
+                                         }
+                        )
                         .frame(width: geometry.size.width / 3, height: 50)
                         
                         CustomButtonView("홈", "house.fill",
                                          self.tabIndex == .home ? Color.accentColor : Color.kindaGray,
                                          true,
-                                         action: {self.tabIndex = .home})
+                                         action: {
+                                            withAnimation() {
+                                                self.tabIndex = .home
+                                            }
+                                         }
+                        )
                         .frame(width: geometry.size.width / 3, height: 50)
                         
                         CustomButtonView("외박신청", "powersleep",
                                          self.tabIndex == .sleepOver ? Color.accentColor : Color.kindaGray,
                                          true,
-                                         action: {self.tabIndex = .sleepOver})
+                                         action: {
+                                            withAnimation {
+                                                self.tabIndex = .sleepOver
+                                            }
+                                         }
+                        )
                         .frame(width: geometry.size.width / 3, height: 50)
                     }
                 }

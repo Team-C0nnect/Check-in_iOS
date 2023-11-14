@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct SleepOverReasonCell: View {
+    @State private var text = ""
     
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
+            
             Text("외박 사유")
-                .font(Font.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
+                .font(Font.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))            
             
-            
-            Rectangle()
-                .frame(width: 333, height: 120, alignment: .center)
-                .foregroundColor(Color("KindaGray"))
-                .cornerRadius(15)
+            ZStack(alignment: .topLeading) {
+                let placeholder: String="외박 사유를 적어주세요."
+                
+                TextEditor(text: $text)
+                    .frame(width: 330, height: 100)
+                    .overlay {
+                        RoundedRectangle(cornerRadius: 15)
+                            .foregroundStyle(.kindaGray)
+                    }
+                    .foregroundColor(Color.black)
+                    .cornerRadius(15)
+                
+                if text.isEmpty {
+                    Text(placeholder)
+                        .padding(10)
+                        .foregroundColor(Color.gray)
+                }
+            }
         }
     }
 }

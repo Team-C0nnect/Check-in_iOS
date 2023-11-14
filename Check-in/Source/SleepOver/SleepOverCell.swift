@@ -32,15 +32,12 @@ struct SleepOverCell: View {
             
             Rectangle()
                 .onTapGesture {
-                    withAnimation {
+                    withAnimation(.bouncy) {
                         self.showDatePicker.toggle()
                     }
                 }
-            
                 .frame(width: 333, height: 60, alignment: .center)
-            
                 .foregroundColor(Color("KindaGray"))
-            
                 .overlay {
                     Text("\(dateFormatter.string(from: date))")
                         .foregroundStyle(Color.init(red: 0/255, green: 0/255, blue: 70/255))

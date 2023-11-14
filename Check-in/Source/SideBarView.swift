@@ -16,7 +16,7 @@ struct SideBarView: View {
         let drag = DragGesture()
             .onEnded {
                 if $0.translation.width < 500 {
-                    withAnimation {
+                    withAnimation() {
                         showMenu = false
                     }
                 }
