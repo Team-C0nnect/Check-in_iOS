@@ -37,6 +37,8 @@
 		758A26C32AB96D210006E1C7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C22AB96D210006E1C7 /* GoogleSignIn */; };
 		758A26C52AB96D210006E1C7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C42AB96D210006E1C7 /* GoogleSignInSwift */; };
 		75AB5AD32B035FE50036BE05 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */; };
+		75AB5AD92B036F900036BE05 /* MyFeelingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB5AD82B036F900036BE05 /* MyFeelingsView.swift */; };
+		75AB5ADB2B03892B0036BE05 /* MyFeelingsViewBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB5ADA2B03892B0036BE05 /* MyFeelingsViewBubble.swift */; };
 		75B2A0022AF0EDF7007DF2A4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 75B2A0012AF0EDF7007DF2A4 /* .gitignore */; };
 		75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */; };
 		75B2A00A2AF10EBD007DF2A4 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */; };
@@ -84,6 +86,8 @@
 		757641182AE7E2B50070F2C9 /* MovieRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestView.swift; sourceTree = "<group>"; };
 		75A216502AB9927E00B78C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		75AB5AD82B036F900036BE05 /* MyFeelingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFeelingsView.swift; sourceTree = "<group>"; };
+		75AB5ADA2B03892B0036BE05 /* MyFeelingsViewBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeelingsViewBubble.swift; sourceTree = "<group>"; };
 		75B2A0012AF0EDF7007DF2A4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResModel.swift; sourceTree = "<group>"; };
 		75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 			children = (
 				757640F12AE7B84A0070F2C9 /* MainView.swift */,
 				757640F02AE7B84A0070F2C9 /* MainViewCell.swift */,
+				75AB5AD72B036F900036BE05 /* MyFeelingsView */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -222,6 +227,15 @@
 				751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */,
 			);
 			path = MoiveRequestView;
+			sourceTree = "<group>";
+		};
+		75AB5AD72B036F900036BE05 /* MyFeelingsView */ = {
+			isa = PBXGroup;
+			children = (
+				75AB5AD82B036F900036BE05 /* MyFeelingsView.swift */,
+				75AB5ADA2B03892B0036BE05 /* MyFeelingsViewBubble.swift */,
+			);
+			path = MyFeelingsView;
 			sourceTree = "<group>";
 		};
 		75CDFD552AE7B6F40057B3EA /* Source */ = {
@@ -390,6 +404,8 @@
 				42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */,
 				7576410D2AE7B84A0070F2C9 /* SignInRegisterView.swift in Sources */,
 				7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */,
+				75AB5ADB2B03892B0036BE05 /* MyFeelingsViewBubble.swift in Sources */,
+				75AB5AD92B036F900036BE05 /* MyFeelingsView.swift in Sources */,
 				7576410C2AE7B84A0070F2C9 /* SignInRegisterCell.swift in Sources */,
 				75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */,
 				42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */,

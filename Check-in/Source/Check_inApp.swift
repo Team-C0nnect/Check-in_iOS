@@ -80,7 +80,7 @@ struct Check_inApp: App {
         
     var body: some Scene {
         WindowGroup {
-           MovieRequestView()
+           MyFeelingsView()
         }
     }
 }
