@@ -10,34 +10,46 @@ import Alamofire
 
 
 struct MovieRequestView: View {
+    
     @StateObject private var movieResearch = MovieResearch()
+    
+    @StateObject var googleLogin = GoogleLoginAction.shared
+    
     var body: some View {
-        ScrollView {
-            if let movieList = movieResearch.movieList {
-                ForEach(movieList, id: \.self) { movie in
-                    if movie.genreAlt != "성인물(에로)" {
-                        HStack {
-                            
-                            Text("\(movie.movieNm)")
-                            
-                            Button {
-                                MovieRequest().movieRequest(title: movie.movieNm)
-                            } label: {
-                                Text("신청")
+        VStack {
+            ScrollView {
+                if let movieList = movieResearch.movieList {
+                    ForEach(movieList, id: \.self) { movie in
+                        if movie.genreAlt != "성인물(에로)" {
+                            HStack {
+                                
+                                Text("\(movie.movieNm)")
+                                
+                                Button {
+                                    MovieRequest().movieRequest(token: googleLogin.tokenData.accessToken, title: movie.movieNm)
+                                } label: {
+                                    Text("신청")
+                                }
+                                .tint(
+                                    Color.blue
+                                )
+                                
                             }
-                            .tint(
-                                Color.blue
-                            )
-                            
                         }
                     }
                 }
+                
             }
+            GoogleLoginButton()
             
         }
         .onAppear {
             movieResearch.movieReserch()
+            
         }
+        
+        
+        
     }
     
 }

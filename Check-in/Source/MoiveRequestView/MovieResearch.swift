@@ -11,7 +11,6 @@ import Alamofire
 class MovieResearch: ObservableObject {
     @Published var movieList: [MovieModel]? = nil
     
-    
     func movieReserch() {
         let url: String = "http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json"
         

@@ -5,25 +5,36 @@
 //  Created by dgsw8th16 on 11/7/23.
 //
 
-import Foundation
+import SwiftUI
 import Alamofire
 
-class MovieRequest {
+struct CodeModel: Codable {
+    let code: String
+}
+
+struct MovieRequest {
     
-    func movieRequest(title: String) {
+    func movieRequest(token: String, title: String) {
+        
         let url: String = "http://43.202.136.92:8080"
         
-        let header: HTTPHeaders = ["Accept": "application/json;charset=UTF-8"]
+        
+        let header: HTTPHeaders = [
+            .authorization(bearerToken: token)
+            ]
+        
         
         AF.request("\(url)/movie",
                    method: .post,
-                   parameters: ["title": title] as Dictionary,
+                   parameters: ["title": title],
                    encoding: JSONEncoding(),
                    headers: header)
+            
         .validate(statusCode: 201...204)
+        
         .response { response in
             switch response.result {
-            case .success(let data):
+            case .success(_):
                 print("succes")
             case .failure(let error):
                 print("\(error)")

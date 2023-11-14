@@ -33,6 +33,7 @@
 		757641192AE7E2B50070F2C9 /* MovieRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757641182AE7E2B50070F2C9 /* MovieRequestView.swift */; };
 		758A26C32AB96D210006E1C7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C22AB96D210006E1C7 /* GoogleSignIn */; };
 		758A26C52AB96D210006E1C7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C42AB96D210006E1C7 /* GoogleSignInSwift */; };
+		75AB5AD32B035FE50036BE05 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */; };
 		75B2A0022AF0EDF7007DF2A4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 75B2A0012AF0EDF7007DF2A4 /* .gitignore */; };
 		75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */; };
 		75B2A00A2AF10EBD007DF2A4 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */; };
@@ -77,6 +78,7 @@
 		757641002AE7B84A0070F2C9 /* GoogleLoginAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginAction.swift; sourceTree = "<group>"; };
 		757641182AE7E2B50070F2C9 /* MovieRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestView.swift; sourceTree = "<group>"; };
 		75A216502AB9927E00B78C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		75B2A0012AF0EDF7007DF2A4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResModel.swift; sourceTree = "<group>"; };
 		75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
+				75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */,
 				42E100AF2AFA28D500D3208D /* SideBarView.swift */,
 				757641172AE7E2990070F2C9 /* MoiveRequestView */,
 				757641122AE7B9730070F2C9 /* ContentView */,
@@ -351,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75AB5AD32B035FE50036BE05 /* Launch Screen.storyboard in Resources */,
 				75B2A0022AF0EDF7007DF2A4 /* .gitignore in Resources */,
 				75CDFD502AE7AF950057B3EA /* GoogleService-Info.plist in Resources */,
 				75F447D82A9F60FB00D8B8AB /* Preview Assets.xcassets in Resources */,
@@ -535,6 +539,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = " 을 위해 카메라가 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -574,6 +579,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = " 을 위해 카메라가 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;

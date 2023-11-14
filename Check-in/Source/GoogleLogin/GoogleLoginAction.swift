@@ -18,16 +18,24 @@ import GoogleSignInSwift
 
 
 
-struct GoogleLoginAction {
+class GoogleLoginAction: ObservableObject {
     
-    let url = "http://43.202.136.92:8080"
+    static let shared = GoogleLoginAction()
     
-    let header: HTTPHeaders = ["Accept": "application/json;charset=UTF-8"]
+    private init() {}
     
-    let decoder = JSONDecoder()
+    @Published var tokenData = GoogleLoginModel(accessToken: "", refreshToken: "")
     
-    public func googleLogin() {
-        guard let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController else { return }
+    func googleLogin() {
+        
+        let url = "http://43.202.136.92:8080"
+        
+        let header: HTTPHeaders = ["Accept": "application/json;charset=UTF-8"]
+        
+        let decoder = JSONDecoder()
+        
+        
+        guard let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController else {return}
         
         GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in
             
@@ -46,9 +54,7 @@ struct GoogleLoginAction {
                         case .success(let get):
                             print("POST 성공")
                             do {
-                                let tokenData = try decoder.decode(GoogleLoginModel.self, from: get!)
-                                
-                                
+                                self.tokenData = try decoder.decode(GoogleLoginModel.self, from: get!)
                                 
                             }
                             catch (_) {
@@ -60,12 +66,17 @@ struct GoogleLoginAction {
                         }
                         
                     }
+                    
                 }
+            
+                
                 
                 
                 
             }
+            
         }
+        
         
     }
     

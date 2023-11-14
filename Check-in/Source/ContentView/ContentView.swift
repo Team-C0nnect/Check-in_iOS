@@ -26,7 +26,7 @@ struct ContentView: View {
             return AnyView(MainView())
         case .sleepOver:
             return AnyView(SleepOverView())
-        default:
+            default:
             return AnyView(MainView())
         }
     }

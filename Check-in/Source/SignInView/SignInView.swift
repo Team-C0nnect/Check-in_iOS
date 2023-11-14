@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SignInView: View {
+    
+    
+    
     var body: some View {
         ZStack {
             Color("WhiteGray")
@@ -38,8 +41,4 @@ struct SignInView: View {
             }
         }
     }
-}
-
-#Preview {
-    SignInView()
 }

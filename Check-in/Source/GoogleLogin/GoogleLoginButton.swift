@@ -11,12 +11,13 @@ import GoogleSignInSwift
 import Alamofire
 
 struct GoogleLoginButton: View {
-
+    
+    @StateObject var googleLogin = GoogleLoginAction.shared
+    
+    
     var body: some View {
         GoogleSignInButton() {
-            GoogleLoginAction().googleLogin()
-                
-            
+            googleLogin.googleLogin()
         }
         
         .clipShape(RoundedRectangle(cornerRadius: 12))
@@ -24,12 +25,5 @@ struct GoogleLoginButton: View {
         
     }
     
-}
-
-
-
-
-#Preview {
-    GoogleLoginButton()
 }
 
