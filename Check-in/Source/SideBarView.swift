@@ -23,7 +23,7 @@ struct SideBarView: View {
             }
         
         GeometryReader { geometry in
-            ZStack(alignment: .trailing) {
+            ZStack(alignment: .leading) {
                 
                 ContentView(tabIndex: .home, showMenu: $showMenu)
                     .frame(width: geometry.size.width, height: geometry.size.height)
@@ -33,7 +33,7 @@ struct SideBarView: View {
                 if showMenu {
                     MenuView(showMenu: $showMenu)
                         .frame(width: geometry.size.width/1.5)
-                        .transition(.move(edge: .trailing ))
+                        .transition(.move(edge: .leading ))
                 }
             }
             .gesture(drag)

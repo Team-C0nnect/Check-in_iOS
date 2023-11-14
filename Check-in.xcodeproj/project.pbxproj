@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426C12862B03692F0069C5B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 426C12852B03692F0069C5B5 /* GoogleService-Info.plist */; };
+		426C128D2B0369820069C5B5 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C128B2B0369820069C5B5 /* MovieItemView.swift */; };
+		426C128E2B0369820069C5B5 /* MovieTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C128C2B0369820069C5B5 /* MovieTabView.swift */; };
 		42E100AE2AFA28CF00D3208D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100AD2AFA28CF00D3208D /* ContentView.swift */; };
 		42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100AF2AFA28D500D3208D /* SideBarView.swift */; };
 		42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100B22AFA28DF00D3208D /* MenuView.swift */; };
@@ -38,7 +41,6 @@
 		75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */; };
 		75B2A00A2AF10EBD007DF2A4 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */; };
 		75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2A00D2AF1C11C007DF2A4 /* MovieResearch.swift */; };
-		75CDFD502AE7AF950057B3EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */; };
 		75CDFD532AE7B6A40057B3EA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDFD522AE7B6A40057B3EA /* CodeScanner */; };
 		75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447D02A9F60F600D8B8AB /* Check_inApp.swift */; };
 		75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F447D42A9F60FB00D8B8AB /* Assets.xcassets */; };
@@ -54,6 +56,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		426C12852B03692F0069C5B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		426C128B2B0369820069C5B5 /* MovieItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
+		426C128C2B0369820069C5B5 /* MovieTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTabView.swift; sourceTree = "<group>"; };
 		42E100AD2AFA28CF00D3208D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42E100AF2AFA28D500D3208D /* SideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		42E100B22AFA28DF00D3208D /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -83,7 +88,6 @@
 		75B2A0072AF0F28E007DF2A4 /* MovieResModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResModel.swift; sourceTree = "<group>"; };
 		75B2A0092AF10EBD007DF2A4 /* KobisKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
 		75B2A00D2AF1C11C007DF2A4 /* MovieResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResearch.swift; sourceTree = "<group>"; };
-		75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75F447CD2A9F60F600D8B8AB /* Check-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Check-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F447D02A9F60F600D8B8AB /* Check_inApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_inApp.swift; sourceTree = "<group>"; };
 		75F447D42A9F60FB00D8B8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				757640F32AE7B84A0070F2C9 /* MovieVoteView.swift */,
+				426C128B2B0369820069C5B5 /* MovieItemView.swift */,
+				426C128C2B0369820069C5B5 /* MovieTabView.swift */,
 			);
 			path = MovieVote;
 			sourceTree = "<group>";
@@ -260,7 +266,7 @@
 			children = (
 				75FF30C82AD544A1000AE65E /* Check-in.entitlements */,
 				75A216502AB9927E00B78C67 /* Info.plist */,
-				75CDFD4F2AE7AF950057B3EA /* GoogleService-Info.plist */,
+				426C12852B03692F0069C5B5 /* GoogleService-Info.plist */,
 				757640E92AE7B7B20070F2C9 /* Resource */,
 				75CDFD552AE7B6F40057B3EA /* Source */,
 			);
@@ -356,9 +362,9 @@
 			files = (
 				75AB5AD32B035FE50036BE05 /* Launch Screen.storyboard in Resources */,
 				75B2A0022AF0EDF7007DF2A4 /* .gitignore in Resources */,
-				75CDFD502AE7AF950057B3EA /* GoogleService-Info.plist in Resources */,
 				75F447D82A9F60FB00D8B8AB /* Preview Assets.xcassets in Resources */,
 				75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */,
+				426C12862B03692F0069C5B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +383,7 @@
 				757641102AE7B84A0070F2C9 /* GoogleLoginButton.swift in Sources */,
 				757641032AE7B84A0070F2C9 /* SleepOverReasonCell.swift in Sources */,
 				757641022AE7B84A0070F2C9 /* SleepOverView.swift in Sources */,
+				426C128D2B0369820069C5B5 /* MovieItemView.swift in Sources */,
 				757641112AE7B84A0070F2C9 /* GoogleLoginAction.swift in Sources */,
 				75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */,
 				42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */,
@@ -388,6 +395,7 @@
 				42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */,
 				7576410E2AE7B84A0070F2C9 /* SignInView.swift in Sources */,
 				757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */,
+				426C128E2B0369820069C5B5 /* MovieTabView.swift in Sources */,
 				757641052AE7B84A0070F2C9 /* MainViewCell.swift in Sources */,
 				757641192AE7E2B50070F2C9 /* MovieRequestView.swift in Sources */,
 				42E100AE2AFA28CF00D3208D /* ContentView.swift in Sources */,

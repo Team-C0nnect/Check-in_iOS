@@ -14,6 +14,14 @@ struct CustomNavigationBarView: View {
 
     var body: some View {
         HStack(alignment: .center) {
+            Button(action: {withAnimation {showMenu = true}}, label: {
+                ZStack {
+                    Image(systemName: "line.3.horizontal")
+                        .font(.system(size: 40))
+                        .foregroundStyle(.black)
+                }
+            })
+            .padding(.leading, 25)
             
             Spacer()
             
@@ -25,15 +33,8 @@ struct CustomNavigationBarView: View {
                         isAnimated.toggle()
                     }
                 })
-                .padding(.trailing, 68)
+                .padding(.trailing, 75)
             
-            Button(action: {withAnimation {showMenu = true}}, label: {
-                ZStack {
-                    Image(systemName: "line.3.horizontal")
-                        .font(.system(size: 40))
-                        .foregroundStyle(.black)
-                }
-            })
-            .padding(.trailing)
+            Spacer()
         }
     }}
