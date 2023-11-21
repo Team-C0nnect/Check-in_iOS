@@ -55,8 +55,10 @@ struct MainView: View {
             CodeScannerView(codeTypes: [.qr]) { response in
                 if case let .success(result) = response {
                     scannedCode = result.string
-                    isShowingScanner = false
                     print(scannedCode ?? "")
+                    isShowingScanner = false
+                    
+                    
                 }
             }
             

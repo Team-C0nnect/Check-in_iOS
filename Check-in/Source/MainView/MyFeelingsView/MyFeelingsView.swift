@@ -67,8 +67,10 @@ struct MyFeelingsView: View {
                 ForEach(0..<feels.count, id: \.self) { index in
                     
                     Button {
+                        
                         withAnimation {
                             isExist = true
+                            
                             
                             DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                                 isExist = false

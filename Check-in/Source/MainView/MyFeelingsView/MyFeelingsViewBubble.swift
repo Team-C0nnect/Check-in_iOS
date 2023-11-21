@@ -52,6 +52,7 @@ struct MyFeelingsViewBubble: View {
                 .stroke(Color.black, lineWidth: 1)
                 .foregroundStyle(.clear)
                 .frame(width: 18, height: 12)
+            
             Rectangle()
                 .frame(width: 150, height: 120)
                 .foregroundColor(Color.white.opacity(0))
