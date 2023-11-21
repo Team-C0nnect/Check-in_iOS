@@ -21,27 +21,40 @@ struct MovieRequestView: View {
                 if let movieList = movieResearch.movieList {
                     ForEach(movieList, id: \.self) { movie in
                         if movie.genreAlt != "성인물(에로)" {
-                            HStack {
+                            VStack(spacing: 0) {
+                                Divider()
+
                                 
-                                Text("\(movie.movieNm)")
-                                
-                                Button {
-                                    MovieRequest().movieRequest(token: googleLogin.tokenData.accessToken, title: movie.movieNm)
-                                } label: {
-                                    Text("신청")
+                                HStack() {
+                                    
+                                    Text("\(movie.movieNm)")
+                                        .font(.custom("Apple SD Gothic Neo", size: 20).weight(.bold))
+                                        .padding(.vertical)
+                                    
+                                    Spacer()
+                                    
+                                    Button {
+                                        MovieRequest().movieRequest(token: googleLogin.tokenData.accessToken, title: movie.movieNm)
+                                    } label: {
+                                        HStack(spacing: 5) {
+                                            Text("신청")
+                                            Image(systemName: "checkmark.circle.fill")
+                                        }
+                                        .padding(10)
+                                        .foregroundStyle(.white)
+                                        .font(.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
+                                        .background(Color(red: 0/255, green: 1/255, blue: 70/255))
+                                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                                        .padding(.horizontal)
+                                           
+                                    }
                                 }
-                                .tint(
-                                    Color.blue
-                                )
-                                
                             }
+                            .padding(.horizontal)
                         }
                     }
                 }
-                
             }
-            GoogleLoginButton()
-            
         }
         .onAppear {
             movieResearch.movieReserch()
