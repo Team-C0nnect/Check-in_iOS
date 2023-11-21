@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423CE8D02B0C9C0B00B1911D /* SignInRegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CE8CC2B0C9C0A00B1911D /* SignInRegisterCell.swift */; };
+		423CE8D22B0C9C0B00B1911D /* SignInRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CE8CE2B0C9C0A00B1911D /* SignInRegisterView.swift */; };
+		423CE8D32B0C9C0B00B1911D /* RegisterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CE8CF2B0C9C0A00B1911D /* RegisterButtonView.swift */; };
+		423CE8D52B0C9E2900B1911D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CE8D42B0C9E2900B1911D /* SignInView.swift */; };
 		426C12862B03692F0069C5B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 426C12852B03692F0069C5B5 /* GoogleService-Info.plist */; };
 		426C128D2B0369820069C5B5 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C128B2B0369820069C5B5 /* MovieItemView.swift */; };
 		426C128E2B0369820069C5B5 /* MovieTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C128C2B0369820069C5B5 /* MovieTabView.swift */; };
@@ -27,9 +31,6 @@
 		757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F52AE7B84A0070F2C9 /* CustomTabItem.swift */; };
 		757641092AE7B84A0070F2C9 /* CustomTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F62AE7B84A0070F2C9 /* CustomTabExtension.swift */; };
 		7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640F72AE7B84A0070F2C9 /* CustomButtonView.swift */; };
-		7576410C2AE7B84A0070F2C9 /* SignInRegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FA2AE7B84A0070F2C9 /* SignInRegisterCell.swift */; };
-		7576410D2AE7B84A0070F2C9 /* SignInRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FB2AE7B84A0070F2C9 /* SignInRegisterView.swift */; };
-		7576410E2AE7B84A0070F2C9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FC2AE7B84A0070F2C9 /* SignInView.swift */; };
 		7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FE2AE7B84A0070F2C9 /* GoogleLoginModel.swift */; };
 		757641102AE7B84A0070F2C9 /* GoogleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640FF2AE7B84A0070F2C9 /* GoogleLoginButton.swift */; };
 		757641112AE7B84A0070F2C9 /* GoogleLoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757641002AE7B84A0070F2C9 /* GoogleLoginAction.swift */; };
@@ -58,6 +59,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		423CE8CC2B0C9C0A00B1911D /* SignInRegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterCell.swift; sourceTree = "<group>"; };
+		423CE8CE2B0C9C0A00B1911D /* SignInRegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterView.swift; sourceTree = "<group>"; };
+		423CE8CF2B0C9C0A00B1911D /* RegisterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterButtonView.swift; sourceTree = "<group>"; };
+		423CE8D42B0C9E2900B1911D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		426C12852B03692F0069C5B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		426C128B2B0369820069C5B5 /* MovieItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
 		426C128C2B0369820069C5B5 /* MovieTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTabView.swift; sourceTree = "<group>"; };
@@ -77,9 +82,6 @@
 		757640F52AE7B84A0070F2C9 /* CustomTabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
 		757640F62AE7B84A0070F2C9 /* CustomTabExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabExtension.swift; sourceTree = "<group>"; };
 		757640F72AE7B84A0070F2C9 /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
-		757640FA2AE7B84A0070F2C9 /* SignInRegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterCell.swift; sourceTree = "<group>"; };
-		757640FB2AE7B84A0070F2C9 /* SignInRegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterView.swift; sourceTree = "<group>"; };
-		757640FC2AE7B84A0070F2C9 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		757640FE2AE7B84A0070F2C9 /* GoogleLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginModel.swift; sourceTree = "<group>"; };
 		757640FF2AE7B84A0070F2C9 /* GoogleLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginButton.swift; sourceTree = "<group>"; };
 		757641002AE7B84A0070F2C9 /* GoogleLoginAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginAction.swift; sourceTree = "<group>"; };
@@ -192,9 +194,10 @@
 		757640F92AE7B84A0070F2C9 /* SignInView */ = {
 			isa = PBXGroup;
 			children = (
-				757640FA2AE7B84A0070F2C9 /* SignInRegisterCell.swift */,
-				757640FB2AE7B84A0070F2C9 /* SignInRegisterView.swift */,
-				757640FC2AE7B84A0070F2C9 /* SignInView.swift */,
+				423CE8CF2B0C9C0A00B1911D /* RegisterButtonView.swift */,
+				423CE8CC2B0C9C0A00B1911D /* SignInRegisterCell.swift */,
+				423CE8CE2B0C9C0A00B1911D /* SignInRegisterView.swift */,
+				423CE8D42B0C9E2900B1911D /* SignInView.swift */,
 			);
 			path = SignInView;
 			sourceTree = "<group>";
@@ -391,8 +394,10 @@
 			files = (
 				757641092AE7B84A0070F2C9 /* CustomTabExtension.swift in Sources */,
 				42E100B82AFA28E500D3208D /* LogoView.swift in Sources */,
+				423CE8D32B0C9C0B00B1911D /* RegisterButtonView.swift in Sources */,
 				75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */,
 				757641062AE7B84A0070F2C9 /* MainView.swift in Sources */,
+				423CE8D22B0C9C0B00B1911D /* SignInRegisterView.swift in Sources */,
 				7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */,
 				757641102AE7B84A0070F2C9 /* GoogleLoginButton.swift in Sources */,
 				757641032AE7B84A0070F2C9 /* SleepOverReasonCell.swift in Sources */,
@@ -400,16 +405,15 @@
 				426C128D2B0369820069C5B5 /* MovieItemView.swift in Sources */,
 				757641112AE7B84A0070F2C9 /* GoogleLoginAction.swift in Sources */,
 				75B2A0082AF0F28E007DF2A4 /* MovieResModel.swift in Sources */,
+				423CE8D02B0C9C0B00B1911D /* SignInRegisterCell.swift in Sources */,
+				423CE8D52B0C9E2900B1911D /* SignInView.swift in Sources */,
 				42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */,
 				42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */,
-				7576410D2AE7B84A0070F2C9 /* SignInRegisterView.swift in Sources */,
 				7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */,
 				75AB5ADB2B03892B0036BE05 /* MyFeelingsViewBubble.swift in Sources */,
 				75AB5AD92B036F900036BE05 /* MyFeelingsView.swift in Sources */,
-				7576410C2AE7B84A0070F2C9 /* SignInRegisterCell.swift in Sources */,
 				75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */,
 				42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */,
-				7576410E2AE7B84A0070F2C9 /* SignInView.swift in Sources */,
 				757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */,
 				426C128E2B0369820069C5B5 /* MovieTabView.swift in Sources */,
 				757641052AE7B84A0070F2C9 /* MainViewCell.swift in Sources */,

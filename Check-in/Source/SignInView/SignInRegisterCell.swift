@@ -1,8 +1,8 @@
 //
 //  SignInRegisterCell.swift
-//  Check-in
+//  SignInView
 //
-//  Created by dgsw8th16 on 10/17/23.
+//  Created by dgsw8th32 on 11/7/23.
 //
 
 import SwiftUI
@@ -21,21 +21,20 @@ struct SignInRegisterCell: View {
         VStack(alignment: .leading, spacing: 0) {
             Text(title)
                 .font(.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
+                .foregroundStyle(Color(red: 0/255, green: 1/255, blue: 32/255))
             
             TextField("", text: $text)
-                
                 .textInputAutocapitalization(.never)
                 .padding(.vertical, 15)
                 .padding(.horizontal, 10)
                 .background(
-                    Color("KindaGray")
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    Color(red: 217/255, green: 217/255, blue: 217/255)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
     
                 )
+                .padding(.bottom)
                 
         }
         .padding(.horizontal, 30)
     }
 }
-
-
