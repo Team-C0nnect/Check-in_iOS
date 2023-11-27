@@ -7,11 +7,14 @@
 
 import SwiftUI
 import CodeScanner
+import Alamofire
 
 struct MainView: View {
     
     @State private var scannedCode: String?
     @State private var isShowingScanner = false
+    
+    @StateObject var googleLogin = GoogleLoginAction.shared
 
     var body: some View {
         ScrollView {
@@ -54,8 +57,34 @@ struct MainView: View {
         .sheet(isPresented: $isShowingScanner) {
             CodeScannerView(codeTypes: [.qr]) { response in
                 if case let .success(result) = response {
+                    
                     scannedCode = result.string
                     print(scannedCode ?? "")
+                    
+                    print(googleLogin.tokenData.accessToken)
+                    let url: String = "http://43.202.136.92:8080"
+                    
+                    let header: HTTPHeaders = [
+                        .authorization(bearerToken: googleLogin.tokenData.accessToken)
+                    ]
+                    
+                    AF.request("\(url)/attendance",
+                               method: .post,
+                               parameters: ["code" : scannedCode ?? " "],
+                               encoding: JSONEncoding(),
+                               headers: header)
+                    .responseDecodable(of: ErrorCode.self) { response in
+                        switch response.result {
+                        case .success(let data):
+                            print("\(data)")
+                        case .failure(let error):
+                            print("\(error)")
+                        }
+                    }
+                    
+                    
+                    
+                    
                     isShowingScanner = false
                     
                     
@@ -72,4 +101,8 @@ struct Main_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
     }
+}
+
+struct ErrorCode: Codable {
+    let message: String
 }

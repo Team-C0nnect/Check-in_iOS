@@ -21,7 +21,7 @@ struct ContentView: View {
     func changeView(tabIndex: TabIndex) -> AnyView {
         switch tabIndex {
         case .movie:
-            return AnyView(MovieVoteView())
+            return AnyView(MovieRequestView())
         case .home:
             return AnyView(MainView())
         case .sleepOver:

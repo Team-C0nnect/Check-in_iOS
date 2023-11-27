@@ -10,8 +10,12 @@ import SwiftUI
 struct MovieVoteView: View {
     var body: some View {
         ZStack {
-            MovieTabView()
-                .padding(.horizontal)
+            NavigationView {
+                MovieTabView()
+                    .padding(.horizontal)
+                
+               
+            }
         }
     }
     
