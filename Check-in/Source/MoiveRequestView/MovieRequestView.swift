@@ -13,21 +13,49 @@ struct MovieRequestView: View {
     
     @StateObject private var movieResearch = MovieResearch()
     
+    @State var search: String = ""
+    
     @StateObject var googleLogin = GoogleLoginAction.shared
     
+    @Environment(\.dismiss) private var dismiss
+    
     var body: some View {
+        
         VStack {
+            HStack(spacing: 0) {
+                TextField("", text: $search)
+                    .padding(10)
+                    .background(Color.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .padding(10)
+                
+                Button {
+                    movieResearch.movieReserch(movieNm: search)
+                } label: {
+                    Image(systemName: "magnifyingglass.circle.fill")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30)
+                }
+                .tint(Color.white)
+            }
+            .padding(.horizontal, 10)
+            .background(Color("MainColor"))
+            .onAppear {
+                movieResearch.movieReserch()
+                
+            }
+            
             ScrollView {
                 if let movieList = movieResearch.movieList {
                     ForEach(movieList, id: \.self) { movie in
-                        if movie.genreAlt != "성인물(에로)" {
+                        if movie.genreAlt != "성인물(에로)" && movie.genreAlt != "" {
                             VStack(spacing: 0) {
                                 Divider()
-
                                 
                                 HStack() {
                                     
-                                    Text("\(movie.movieNm)")
+                                    Text("\(movie.movieNm), \(movie.genreAlt)")
                                         .font(.custom("Apple SD Gothic Neo", size: 20).weight(.bold))
                                         .padding(.vertical)
                                     
@@ -43,23 +71,21 @@ struct MovieRequestView: View {
                                         .padding(10)
                                         .foregroundStyle(.white)
                                         .font(.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
-                                        .background(Color(red: 0/255, green: 1/255, blue: 70/255))
+                                        .background(Color("MainColor"))
                                         .clipShape(RoundedRectangle(cornerRadius: 12))
-                                        .padding(.horizontal)
-                                           
+                                        
+                                        
                                     }
                                 }
+                                .padding(.horizontal)
                             }
-                            .padding(.horizontal)
+                            
                         }
                     }
                 }
             }
         }
-        .onAppear {
-            movieResearch.movieReserch()
-            
-        }
+        
         
         
         

@@ -9,14 +9,23 @@ import SwiftUI
 
 struct MovieVoteView: View {
     var body: some View {
-        ZStack {
-            NavigationView {
-                MovieTabView()
-                    .padding(.horizontal)
+        NavigationView {
+            VStack {
+                NavigationLink {
+                    MovieRequestView()
+                        
+                } label: {
+                    Text("w")
+                       
+                }
                 
-               
+                
+                MovieTabView()
             }
+            
         }
+        
+          
     }
     
 }

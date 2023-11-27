@@ -38,41 +38,42 @@ class GoogleLoginAction: ObservableObject {
         guard let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController else {return}
         
         GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in
-            
-            Messaging.messaging().token { token, error in
-                
-                if let fcmToken = token {
-                    print(fcmToken)
-                    AF.request("\(url)/auth",
-                               method: .post,
-                               parameters: ["idToken":signInResult?.user.idToken?.tokenString ?? "", "fcmToken":fcmToken] as Dictionary,
-                               encoding: JSONEncoding(),
-                               headers: header)
+            if (signInResult != nil) {
+                Messaging.messaging().token { token, error in
                     
-                    .response { response in
-                        switch response.result {
-                        case .success(let get):
-                            print("POST 성공")
-                            do {
-                                self.tokenData = try decoder.decode(GoogleLoginModel.self, from: get!)
+                    if let fcmToken = token {
+                        print(fcmToken)
+                        AF.request("\(url)/auth",
+                                   method: .post,
+                                   parameters: ["idToken":signInResult?.user.idToken?.tokenString ?? "", "fcmToken":fcmToken] as Dictionary,
+                                   encoding: JSONEncoding(),
+                                   headers: header)
+                        
+                        .response { response in
+                            switch response.result {
+                            case .success(let get):
+                                print("POST 성공")
+                                do {
+                                    self.tokenData = try decoder.decode(GoogleLoginModel.self, from: get!)
+                                    
+                                }
+                                catch (_) {
+                                    
+                                }
+                            case .failure(let error):
+                                print("에러 : \(error)")
                                 
                             }
-                            catch (_) {
-                                
-                            }
-                        case .failure(let error):
-                            print("에러 : \(error)")
                             
                         }
                         
                     }
                     
+                    
+                    
+                    
+                    
                 }
-            
-                
-                
-                
-                
             }
             
         }

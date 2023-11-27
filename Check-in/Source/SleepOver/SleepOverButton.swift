@@ -18,7 +18,7 @@ struct SleepOverButton: View {
                 }
         }
         .frame(width: 333, height: 50)
-        .background(Color.accentColor)
+        .background(Color("MainColor"))
         .clipShape(RoundedRectangle(cornerRadius: 15))
 
             

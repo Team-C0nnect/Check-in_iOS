@@ -40,5 +40,5 @@ struct CustomButtonView: View {
 }
 
 #Preview {
-    CustomButtonView("v", "house", Color.accentColor, true, action: {print("yes")})
+    CustomButtonView("v", "house", Color("MainColor"), true, action: {print("yes")})
 }

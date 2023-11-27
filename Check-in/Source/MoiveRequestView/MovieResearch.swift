@@ -11,12 +11,12 @@ import Alamofire
 class MovieResearch: ObservableObject {
     @Published var movieList: [MovieModel]? = nil
     
-    func movieReserch() {
+    func movieReserch(movieNm: String = "") {
         let url: String = "http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json"
         
         lazy var params: Parameters = [
             "key" : KobisKey().key,
-            "movieNm" : ""
+            "movieNm" : movieNm
             ]
         
         AF.request(url,
