@@ -78,13 +78,13 @@ struct Check_inApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    @StateObject var googleLogin = GoogleLoginAction.shared
+    let storageManager = StorageManager.shared
     
     @State var showMenu: Bool = false
         
     var body: some Scene {
         WindowGroup {
-            if googleLogin.tokenData.accessToken.isEmpty {
+            if storageManager.readTokens()?.accessToken != nil {
                 SignInView()
             }
             else {

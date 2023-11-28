@@ -12,12 +12,11 @@ import Alamofire
 
 struct GoogleLoginButton: View {
     
-    @StateObject var googleLogin = GoogleLoginAction.shared
     
     
     var body: some View {
         GoogleSignInButton() {
-            googleLogin.googleLogin()
+            GoogleLoginAction().googleLogin()
         }
         
         .clipShape(RoundedRectangle(cornerRadius: 12))

@@ -14,7 +14,7 @@ struct MainView: View {
     @State private var scannedCode: String?
     @State private var isShowingScanner = false
     
-    @StateObject var googleLogin = GoogleLoginAction.shared
+    let storageManager = StorageManager.shared
 
     var body: some View {
         ScrollView {
@@ -62,11 +62,11 @@ struct MainView: View {
                     scannedCode = result.string
                     print(scannedCode ?? "")
                     
-                    print(googleLogin.tokenData.accessToken)
+                    print(storageManager.readTokens()?.accessToken)
                     let url: String = "http://43.202.136.92:8080"
                     
                     let header: HTTPHeaders = [
-                        .authorization(bearerToken: googleLogin.tokenData.accessToken)
+                        .authorization(bearerToken: storageManager.readTokens()?.accessToken ?? " ")
                     ]
                     
                     AF.request("\(url)/attendance",

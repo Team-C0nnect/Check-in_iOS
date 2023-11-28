@@ -49,6 +49,7 @@
 		75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F447D02A9F60F600D8B8AB /* Check_inApp.swift */; };
 		75F447D52A9F60FB00D8B8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F447D42A9F60FB00D8B8AB /* Assets.xcassets */; };
 		75F447D82A9F60FB00D8B8AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F447D72A9F60FB00D8B8AB /* Preview Assets.xcassets */; };
+		75F9DB022B15D70B00D9FF6E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F9DB012B15D70B00D9FF6E /* StorageManager.swift */; };
 		75FF30932AD54048000AE65E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30922AD54048000AE65E /* FirebaseAnalytics */; };
 		75FF30952AD54048000AE65E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30942AD54048000AE65E /* FirebaseAnalyticsOnDeviceConversion */; };
 		75FF30972AD54048000AE65E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF30962AD54048000AE65E /* FirebaseAnalyticsSwift */; };
@@ -100,6 +101,7 @@
 		75F447D02A9F60F600D8B8AB /* Check_inApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_inApp.swift; sourceTree = "<group>"; };
 		75F447D42A9F60FB00D8B8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F447D72A9F60FB00D8B8AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75F9DB012B15D70B00D9FF6E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		75FF30C82AD544A1000AE65E /* Check-in.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Check-in.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 		42E100B42AFA28E500D3208D /* CustomNavigationBarView */ = {
 			isa = PBXGroup;
 			children = (
+				75F9DAFE2B15D6E100D9FF6E /* New Group */,
 				42E100B52AFA28E500D3208D /* CustomNavigationBarView.swift */,
 				42E100B62AFA28E500D3208D /* LogoView.swift */,
 			);
@@ -247,6 +250,7 @@
 		75CDFD552AE7B6F40057B3EA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				75F9DB002B15D6FB00D9FF6E /* StorageManager */,
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
 				75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */,
 				42E100AF2AFA28D500D3208D /* SideBarView.swift */,
@@ -284,6 +288,7 @@
 		75F447CF2A9F60F600D8B8AB /* Check-in */ = {
 			isa = PBXGroup;
 			children = (
+				75F9DAFF2B15D6F100D9FF6E /* New Group */,
 				75FF30C82AD544A1000AE65E /* Check-in.entitlements */,
 				75A216502AB9927E00B78C67 /* Info.plist */,
 				426C12852B03692F0069C5B5 /* GoogleService-Info.plist */,
@@ -299,6 +304,28 @@
 				75F447D72A9F60FB00D8B8AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75F9DAFE2B15D6E100D9FF6E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		75F9DAFF2B15D6F100D9FF6E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		75F9DB002B15D6FB00D9FF6E /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				75F9DB012B15D70B00D9FF6E /* StorageManager.swift */,
+			);
+			path = StorageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +439,7 @@
 				423CE8D52B0C9E2900B1911D /* SignInView.swift in Sources */,
 				42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */,
 				42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */,
+				75F9DB022B15D70B00D9FF6E /* StorageManager.swift in Sources */,
 				7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */,
 				75AB5ADB2B03892B0036BE05 /* MyFeelingsViewBubble.swift in Sources */,
 				75AB5AD92B036F900036BE05 /* MyFeelingsView.swift in Sources */,

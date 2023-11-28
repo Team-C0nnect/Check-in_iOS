@@ -15,7 +15,7 @@ struct MovieRequestView: View {
     
     @State var search: String = ""
     
-    @StateObject var googleLogin = GoogleLoginAction.shared
+    let storageManager = StorageManager.shared
     
     @Environment(\.dismiss) private var dismiss
     
@@ -61,7 +61,7 @@ struct MovieRequestView: View {
                                     Spacer()
                                     
                                     Button {
-                                        MovieRequest().movieRequest(token: googleLogin.tokenData.accessToken, title: movie.movieNm)
+                                        MovieRequest().movieRequest(token: storageManager.readTokens()?.accessToken ?? " ", title: movie.movieNm)
                                     } label: {
                                         HStack(spacing: 5) {
                                             Text("신청")

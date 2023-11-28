@@ -17,13 +17,9 @@ import GoogleSignInSwift
 
 
 
-class GoogleLoginAction: ObservableObject {
+struct GoogleLoginAction {
     
-    static let shared = GoogleLoginAction()
-    
-    private init() {}
-    
-    @Published var tokenData = GoogleLoginModel(accessToken: "", refreshToken: "")
+    let storageManager = StorageManager.shared
     
     func googleLogin() {
         
@@ -32,7 +28,6 @@ class GoogleLoginAction: ObservableObject {
         let header: HTTPHeaders = ["Accept": "application/json;charset=UTF-8"]
         
         let decoder = JSONDecoder()
-        
         
         guard let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController else {return}
         
@@ -53,8 +48,7 @@ class GoogleLoginAction: ObservableObject {
                             case .success(let get):
                                 print("POST 성공")
                                 do {
-                                    self.tokenData = try decoder.decode(GoogleLoginModel.self, from: get!)
-                                    
+                                    print("\(storageManager.createTokens(try decoder.decode(GoogleLoginModel.self, from: get!)))")
                                 }
                                 catch (_) {
                                     
