@@ -29,6 +29,7 @@ struct SideBarView: View {
                     .frame(width: geometry.size.width, height: geometry.size.height)
                     .offset(x: showMenu ? geometry.size.width/1.4 : 0)
                     .disabled(showMenu ? true : false)
+                    .blur(radius: showMenu ? 6.0 : 0)
                 
                 if showMenu {
                     MenuView(showMenu: $showMenu)
