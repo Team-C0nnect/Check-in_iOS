@@ -288,7 +288,6 @@
 		75F447CF2A9F60F600D8B8AB /* Check-in */ = {
 			isa = PBXGroup;
 			children = (
-				75F9DAFF2B15D6F100D9FF6E /* New Group */,
 				75FF30C82AD544A1000AE65E /* Check-in.entitlements */,
 				75A216502AB9927E00B78C67 /* Info.plist */,
 				426C12852B03692F0069C5B5 /* GoogleService-Info.plist */,
@@ -307,13 +306,6 @@
 			sourceTree = "<group>";
 		};
 		75F9DAFE2B15D6E100D9FF6E /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		75F9DAFF2B15D6F100D9FF6E /* New Group */ = {
 			isa = PBXGroup;
 			children = (
 			);

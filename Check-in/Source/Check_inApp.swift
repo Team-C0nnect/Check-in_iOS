@@ -84,7 +84,7 @@ struct Check_inApp: App {
         
     var body: some Scene {
         WindowGroup {
-            if storageManager.readTokens()?.accessToken != nil {
+            if storageManager.readTokens()?.accessToken == nil {
                 SignInView()
             }
             else {

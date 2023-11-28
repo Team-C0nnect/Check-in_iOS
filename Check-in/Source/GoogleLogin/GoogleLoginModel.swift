@@ -8,8 +8,6 @@
 import Foundation
 
 struct GoogleLoginModel: Codable {
-
-    
     var accessToken: String
     var refreshToken: String
     

@@ -19,8 +19,6 @@ import GoogleSignInSwift
 
 struct GoogleLoginAction {
     
-    let storageManager = StorageManager.shared
-    
     func googleLogin() {
         
         let url = "http://43.202.136.92:8080"
@@ -48,7 +46,13 @@ struct GoogleLoginAction {
                             case .success(let get):
                                 print("POST 성공")
                                 do {
-                                    print("\(storageManager.createTokens(try decoder.decode(GoogleLoginModel.self, from: get!)))")
+                                    let tokens = try decoder.decode(GoogleLoginModel.self, from: get!)
+                                    guard StorageManager.shared.createTokens(tokens) else {
+                                        print("실패")
+                                        return
+                                    }
+                                    
+                                    
                                 }
                                 catch (_) {
                                     

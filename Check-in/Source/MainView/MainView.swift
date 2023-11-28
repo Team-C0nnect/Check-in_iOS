@@ -13,8 +13,7 @@ struct MainView: View {
     
     @State private var scannedCode: String?
     @State private var isShowingScanner = false
-    
-    let storageManager = StorageManager.shared
+
 
     var body: some View {
         ScrollView {
@@ -62,11 +61,11 @@ struct MainView: View {
                     scannedCode = result.string
                     print(scannedCode ?? "")
                     
-                    print(storageManager.readTokens()?.accessToken)
+                    print(StorageManager.shared.readTokens()?.accessToken ?? "")
                     let url: String = "http://43.202.136.92:8080"
                     
                     let header: HTTPHeaders = [
-                        .authorization(bearerToken: storageManager.readTokens()?.accessToken ?? " ")
+                        .authorization(bearerToken: StorageManager.shared.readTokens()?.accessToken ?? " ")
                     ]
                     
                     AF.request("\(url)/attendance",
