@@ -23,6 +23,17 @@ struct MainView: View {
                     Text("미완료")
                         .font(.custom("Apple SD Gothic Neo", size: 32).weight(.bold))
                         .foregroundStyle(Color.black)
+                        .onAppear {
+                            ApiClient.request(ApiRouter(requestConfigurator: RequestConfigurator(path: "/attendance/confirm", httpMethod: .get, body: nil))) { (result : Result<String?, ApiError>) in
+                                switch result {
+                                case .success(let data):
+                                    print(data)
+                                case .error(let error):
+                                    print(error)
+                                }
+                                
+                            }
+                        }
                     
                     Spacer()
                     
@@ -60,27 +71,9 @@ struct MainView: View {
                     
                     scannedCode = result.string
                     print(scannedCode ?? "")
-                    
-                    print(StorageManager.shared.readTokens()?.accessToken ?? "")
-                    let url: String = "http://43.202.136.92:8080"
-                    
-                    let header: HTTPHeaders = [
-                        .authorization(bearerToken: StorageManager.shared.readTokens()?.accessToken ?? " ")
-                    ]
-                    
-                    AF.request("\(url)/attendance",
-                               method: .post,
-                               parameters: ["code" : scannedCode ?? " "],
-                               encoding: JSONEncoding(),
-                               headers: header)
-                    .responseDecodable(of: ErrorCode.self) { response in
-                        switch response.result {
-                        case .success(let data):
-                            print("\(data)")
-                        case .failure(let error):
-                            print("\(error)")
-                        }
-                    }
+//                    
+//                    ApiClient.request(ApiRouter(requestConfigurator: RequestConfigurator(path: "/attendance")), completion: <#T##(Result<T, ApiError>) -> Void#>)
+//                    }
                     
                     
                     

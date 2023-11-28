@@ -38,6 +38,12 @@
 		757641192AE7E2B50070F2C9 /* MovieRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757641182AE7E2B50070F2C9 /* MovieRequestView.swift */; };
 		758A26C32AB96D210006E1C7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C22AB96D210006E1C7 /* GoogleSignIn */; };
 		758A26C52AB96D210006E1C7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 758A26C42AB96D210006E1C7 /* GoogleSignInSwift */; };
+		75A502EF2B15FA67000E07FF /* MySendInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A502EE2B15FA67000E07FF /* MySendInterceptor.swift */; };
+		75A502F22B15FB3A000E07FF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A502F12B15FB3A000E07FF /* APIClient.swift */; };
+		75A502F42B15FB5D000E07FF /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A502F32B15FB5D000E07FF /* APIError.swift */; };
+		75A502F62B15FBB1000E07FF /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A502F52B15FBB1000E07FF /* APIRouter.swift */; };
+		75A502F82B15FC12000E07FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A502F72B15FC12000E07FF /* Constants.swift */; };
+		75A502FA2B15FC59000E07FF /* RequestConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A502F92B15FC59000E07FF /* RequestConfigurator.swift */; };
 		75AB5AD32B035FE50036BE05 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */; };
 		75AB5AD92B036F900036BE05 /* MyFeelingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB5AD82B036F900036BE05 /* MyFeelingsView.swift */; };
 		75AB5ADB2B03892B0036BE05 /* MyFeelingsViewBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB5ADA2B03892B0036BE05 /* MyFeelingsViewBubble.swift */; };
@@ -90,6 +96,12 @@
 		757641002AE7B84A0070F2C9 /* GoogleLoginAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginAction.swift; sourceTree = "<group>"; };
 		757641182AE7E2B50070F2C9 /* MovieRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestView.swift; sourceTree = "<group>"; };
 		75A216502AB9927E00B78C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75A502EE2B15FA67000E07FF /* MySendInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySendInterceptor.swift; sourceTree = "<group>"; };
+		75A502F12B15FB3A000E07FF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		75A502F32B15FB5D000E07FF /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		75A502F52B15FBB1000E07FF /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		75A502F72B15FC12000E07FF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		75A502F92B15FC59000E07FF /* RequestConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfigurator.swift; sourceTree = "<group>"; };
 		75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		75AB5AD82B036F900036BE05 /* MyFeelingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFeelingsView.swift; sourceTree = "<group>"; };
 		75AB5ADA2B03892B0036BE05 /* MyFeelingsViewBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeelingsViewBubble.swift; sourceTree = "<group>"; };
@@ -237,6 +249,19 @@
 			path = MoiveRequestView;
 			sourceTree = "<group>";
 		};
+		75A502F02B15FA6A000E07FF /* MySendInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				75A502EE2B15FA67000E07FF /* MySendInterceptor.swift */,
+				75A502F12B15FB3A000E07FF /* APIClient.swift */,
+				75A502F32B15FB5D000E07FF /* APIError.swift */,
+				75A502F52B15FBB1000E07FF /* APIRouter.swift */,
+				75A502F72B15FC12000E07FF /* Constants.swift */,
+				75A502F92B15FC59000E07FF /* RequestConfigurator.swift */,
+			);
+			path = MySendInterceptor;
+			sourceTree = "<group>";
+		};
 		75AB5AD72B036F900036BE05 /* MyFeelingsView */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +289,7 @@
 				757640EF2AE7B84A0070F2C9 /* MainView */,
 				757640F92AE7B84A0070F2C9 /* SignInView */,
 				757640EA2AE7B84A0070F2C9 /* SleepOver */,
+				75A502F02B15FA6A000E07FF /* MySendInterceptor */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -419,10 +445,12 @@
 				423CE8D32B0C9C0B00B1911D /* RegisterButtonView.swift in Sources */,
 				75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */,
 				757641062AE7B84A0070F2C9 /* MainView.swift in Sources */,
+				75A502EF2B15FA67000E07FF /* MySendInterceptor.swift in Sources */,
 				423CE8D22B0C9C0B00B1911D /* SignInRegisterView.swift in Sources */,
 				7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */,
 				757641102AE7B84A0070F2C9 /* GoogleLoginButton.swift in Sources */,
 				757641032AE7B84A0070F2C9 /* SleepOverReasonCell.swift in Sources */,
+				75A502F42B15FB5D000E07FF /* APIError.swift in Sources */,
 				757641022AE7B84A0070F2C9 /* SleepOverView.swift in Sources */,
 				426C128D2B0369820069C5B5 /* MovieItemView.swift in Sources */,
 				757641112AE7B84A0070F2C9 /* GoogleLoginAction.swift in Sources */,
@@ -432,9 +460,12 @@
 				42E100B02AFA28D500D3208D /* SideBarView.swift in Sources */,
 				42E100B32AFA28DF00D3208D /* MenuView.swift in Sources */,
 				75F9DB022B15D70B00D9FF6E /* StorageManager.swift in Sources */,
+				75A502F82B15FC12000E07FF /* Constants.swift in Sources */,
 				7576410F2AE7B84A0070F2C9 /* GoogleLoginModel.swift in Sources */,
 				75AB5ADB2B03892B0036BE05 /* MyFeelingsViewBubble.swift in Sources */,
 				75AB5AD92B036F900036BE05 /* MyFeelingsView.swift in Sources */,
+				75A502FA2B15FC59000E07FF /* RequestConfigurator.swift in Sources */,
+				75A502F62B15FBB1000E07FF /* APIRouter.swift in Sources */,
 				75B2A00E2AF1C11C007DF2A4 /* MovieResearch.swift in Sources */,
 				42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */,
 				757641082AE7B84A0070F2C9 /* CustomTabItem.swift in Sources */,
@@ -448,6 +479,7 @@
 				75B2A00A2AF10EBD007DF2A4 /* KobisKey.swift in Sources */,
 				753C94822B0CBADF004AB956 /* MyFeelingsModel.swift in Sources */,
 				751307E22AFA1EAF00A7B752 /* MovieRequestAction.swift in Sources */,
+				75A502F22B15FB3A000E07FF /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

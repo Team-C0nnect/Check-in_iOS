@@ -63,6 +63,20 @@ final class StorageManager {
         
     }
     
+    func updateTokens(_ token: GoogleLoginModel) -> Bool {
+        guard let query = self.query,
+              let data = try? JSONEncoder().encode(token) else {
+            return false
+        }
+        
+        let attributes: [CFString: Any] = [kSecAttrAccount: account,
+                                           kSecAttrGeneric: data]
+        
+        return SecItemUpdate(query as CFDictionary, attributes as CFDictionary) == errSecSuccess
+    }
+    
+    
+    
 }
 
 

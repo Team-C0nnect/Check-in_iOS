@@ -8,6 +8,7 @@
 import SwiftUI
 import Firebase
 import FirebaseMessaging
+import Alamofire
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -78,18 +79,13 @@ struct Check_inApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    let storageManager = StorageManager.shared
-    
     @State var showMenu: Bool = false
         
     var body: some Scene {
         WindowGroup {
-            if storageManager.readTokens()?.accessToken == nil {
-                SignInView()
-            }
-            else {
-                SideBarView()
-            }
+
+            MainView()
+            
         }
     }
 }
