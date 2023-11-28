@@ -7,32 +7,26 @@
 
 import SwiftUI
 
+
+
+
 struct MovieVoteView: View {
+    @State var isMovieVote: Bool = true
     var body: some View {
-        NavigationView {
-            VStack {
-                NavigationLink {
-                    MovieRequestView()
-                        
-                } label: {
-                    Text("w")
-                       
-                }
-                
-                
+        VStack {
+            if isMovieVote {
                 MovieTabView()
+            }
+            else {
+                MovieRequestView()
             }
             
         }
-        
-          
     }
-    
 }
 
 
-struct MovieVote_Previews: PreviewProvider {
-    static var previews: some View {
-        MovieVoteView()
-    }
+#Preview {
+    
+    MovieVoteView()
 }

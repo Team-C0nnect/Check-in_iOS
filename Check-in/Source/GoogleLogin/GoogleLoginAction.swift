@@ -17,7 +17,6 @@ import GoogleSignInSwift
 
 
 
-
 class GoogleLoginAction: ObservableObject {
     
     static let shared = GoogleLoginAction()

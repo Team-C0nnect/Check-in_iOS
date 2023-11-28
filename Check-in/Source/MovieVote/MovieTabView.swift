@@ -7,43 +7,64 @@
 
 import SwiftUI
 
+struct MovieItem: Identifiable, Hashable {
+    var id: Int = 0
+    var toggle: Bool = false
+}
+
 struct MovieTabView: View {
-    @State var isPressed : Bool = false
+    
+    @State var movies: [MovieItem] = Array(repeating: MovieItem(), count: 10)
+    
+    
+    
+    @State var selection: Int = 0
     
     var body: some View {
-        VStack(spacing: 0) {
-            TabView {
-                ForEach(1..<5) { _ in
-                    
+        VStack(spacing: 10) {
+            TabView(selection: $selection) {
+                
+                ForEach(movies) { index in
                     MovieItemView()
-                    
+                        .tag(index.id)
                 }
+                
+                
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
-            .padding(.top, 60)
             
             
-            Button(action: {
-                    isPressed.toggle()
-            }, label: {
-                HStack(spacing: 0) {
-                    Image(systemName: "checkmark.circle")
-                        .font(.title)
+            
+            
+            
+            Button {
+                movies[selection].toggle.toggle()
+                
+                print(movies[selection])
+            } label: {
+                HStack(spacing: 10) {
+                    Image(systemName: movies[selection].toggle ? "checkmark.circle.fill" : "checkmark.circle")
+                        .font(.custom("Apple SD Gothic Neo", size: 25))
                     
-                    Text(isPressed ? "투표완료" : "투표하기")
-                        .font(.title)
+                    Text(movies[selection].toggle ? "투표완료" : "투표하기")
+                        .font(.custom("Apple SD Gothic Neo", size: 25))
                 }
                 .foregroundStyle(.white)
-                .frame(width: 350, height: 70)
-                .background(isPressed ? Color.gray : Color(red: 0/255, green: 1/255, blue: 32/255))
-                .cornerRadius(12)
-                .padding(.bottom, 50)
-            })
+                .frame(width: 350, height: 60)
+                .background(movies[selection].toggle ? Color.gray : Color.accentColor)
+                .clipShape(RoundedRectangle(cornerRadius: 12))
+            }
+            
+            
+            Spacer(minLength: 50)
         }
+        
     }
+    
+    
 }
 
 #Preview {
     MovieTabView()
-
+    
 }

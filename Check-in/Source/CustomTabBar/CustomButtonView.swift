@@ -31,7 +31,9 @@ struct CustomButtonView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
+                    .padding(.bottom, 5)
                 Text(title)
+                    .font(.system(size: 12))
             }
         }
         .foregroundColor(color)
@@ -40,5 +42,5 @@ struct CustomButtonView: View {
 }
 
 #Preview {
-    CustomButtonView("v", "house", Color("MainColor"), true, action: {print("yes")})
+    CustomButtonView("v", "house", Color.accentColor, true, action: {print("yes")})
 }

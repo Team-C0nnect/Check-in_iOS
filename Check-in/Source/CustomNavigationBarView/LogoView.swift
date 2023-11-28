@@ -12,7 +12,7 @@ struct LogoView: View {
         Text("Check in")
             .font(.custom("Apple SD Gothic Neo", size: 30))
             .fontWeight(.bold)
-            .foregroundStyle(Color(red: 0/255, green: 1/255, blue: 50/255))
+            .foregroundStyle(Color.accentColor)
     }
 }
 

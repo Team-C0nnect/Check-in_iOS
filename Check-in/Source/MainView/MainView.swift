@@ -36,6 +36,7 @@ struct MainView: View {
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 100, height: 100)
+                                .foregroundStyle(Color.accentColor)
                             
                             
                             Text("출첵하기")

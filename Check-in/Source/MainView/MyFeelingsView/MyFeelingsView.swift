@@ -67,6 +67,9 @@ struct MyFeelingsView: View {
                 ForEach(0..<feels.count, id: \.self) { index in
                     
                     Button {
+                        if isExist {
+                            
+                        }
                         
                         withAnimation {
                             isExist = true

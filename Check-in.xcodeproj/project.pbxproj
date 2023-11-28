@@ -20,8 +20,6 @@
 		42E100B72AFA28E500D3208D /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100B52AFA28E500D3208D /* CustomNavigationBarView.swift */; };
 		42E100B82AFA28E500D3208D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E100B62AFA28E500D3208D /* LogoView.swift */; };
 		751307E22AFA1EAF00A7B752 /* MovieRequestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */; };
-		751F9B0C2B0CA2D40075A0C0 /* SendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F9B0B2B0CA2D40075A0C0 /* SendRequest.swift */; };
-		751F9B0F2B0CB4740075A0C0 /* SendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F9B0E2B0CB4740075A0C0 /* SendError.swift */; };
 		753C94822B0CBADF004AB956 /* MyFeelingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753C94812B0CBADF004AB956 /* MyFeelingsModel.swift */; };
 		75713B962AB0831D00AC876A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 75713B952AB0831D00AC876A /* Alamofire */; };
 		757641012AE7B84A0070F2C9 /* SleepOverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757640EB2AE7B84A0070F2C9 /* SleepOverButton.swift */; };
@@ -75,8 +73,6 @@
 		42E100B52AFA28E500D3208D /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
 		42E100B62AFA28E500D3208D /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		751307E12AFA1EAF00A7B752 /* MovieRequestAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequestAction.swift; sourceTree = "<group>"; };
-		751F9B0B2B0CA2D40075A0C0 /* SendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequest.swift; sourceTree = "<group>"; };
-		751F9B0E2B0CB4740075A0C0 /* SendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendError.swift; sourceTree = "<group>"; };
 		753C94812B0CBADF004AB956 /* MyFeelingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeelingsModel.swift; sourceTree = "<group>"; };
 		757640EB2AE7B84A0070F2C9 /* SleepOverButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverButton.swift; sourceTree = "<group>"; };
 		757640EC2AE7B84A0070F2C9 /* SleepOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepOverView.swift; sourceTree = "<group>"; };
@@ -145,15 +141,6 @@
 				42E100B62AFA28E500D3208D /* LogoView.swift */,
 			);
 			path = CustomNavigationBarView;
-			sourceTree = "<group>";
-		};
-		751F9B0D2B0CB4580075A0C0 /* SendRequest */ = {
-			isa = PBXGroup;
-			children = (
-				751F9B0B2B0CA2D40075A0C0 /* SendRequest.swift */,
-				751F9B0E2B0CB4740075A0C0 /* SendError.swift */,
-			);
-			path = SendRequest;
 			sourceTree = "<group>";
 		};
 		757640E92AE7B7B20070F2C9 /* Resource */ = {
@@ -273,7 +260,6 @@
 				757640EF2AE7B84A0070F2C9 /* MainView */,
 				757640F92AE7B84A0070F2C9 /* SignInView */,
 				757640EA2AE7B84A0070F2C9 /* SleepOver */,
-				751F9B0D2B0CB4580075A0C0 /* SendRequest */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -412,12 +398,10 @@
 				757641092AE7B84A0070F2C9 /* CustomTabExtension.swift in Sources */,
 				42E100B82AFA28E500D3208D /* LogoView.swift in Sources */,
 				423CE8D32B0C9C0B00B1911D /* RegisterButtonView.swift in Sources */,
-				751F9B0C2B0CA2D40075A0C0 /* SendRequest.swift in Sources */,
 				75F447D12A9F60F600D8B8AB /* Check_inApp.swift in Sources */,
 				757641062AE7B84A0070F2C9 /* MainView.swift in Sources */,
 				423CE8D22B0C9C0B00B1911D /* SignInRegisterView.swift in Sources */,
 				7576410A2AE7B84A0070F2C9 /* CustomButtonView.swift in Sources */,
-				751F9B0F2B0CB4740075A0C0 /* SendError.swift in Sources */,
 				757641102AE7B84A0070F2C9 /* GoogleLoginButton.swift in Sources */,
 				757641032AE7B84A0070F2C9 /* SleepOverReasonCell.swift in Sources */,
 				757641022AE7B84A0070F2C9 /* SleepOverView.swift in Sources */,

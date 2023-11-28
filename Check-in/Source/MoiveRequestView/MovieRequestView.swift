@@ -40,10 +40,9 @@ struct MovieRequestView: View {
                 .tint(Color.white)
             }
             .padding(.horizontal, 10)
-            .background(Color("MainColor"))
+            .background(Color.accentColor)
             .onAppear {
                 movieResearch.movieReserch()
-                
             }
             
             ScrollView {
@@ -71,7 +70,7 @@ struct MovieRequestView: View {
                                         .padding(10)
                                         .foregroundStyle(.white)
                                         .font(.custom("Apple SD Gothic Neo", size: 20).weight(.semibold))
-                                        .background(Color("MainColor"))
+                                        .background(Color.accentColor)
                                         .clipShape(RoundedRectangle(cornerRadius: 12))
                                         
                                         

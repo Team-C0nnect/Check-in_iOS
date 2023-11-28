@@ -29,6 +29,7 @@ struct SleepOverView: View {
             
             SleepOverButton()
                 .padding(.top, 15)
+                .tint(Color.accentColor)
             
         }
         

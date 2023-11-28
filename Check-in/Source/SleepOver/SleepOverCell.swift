@@ -50,10 +50,10 @@ struct SleepOverCell: View {
                 DatePicker("", selection: $date, displayedComponents: .date)
                     .frame(width: 300)
                     .datePickerStyle(GraphicalDatePickerStyle())
-                    .tint(Color("MainColor"))
+                    .tint(Color.accentColor)
                     .overlay(
                             RoundedRectangle(cornerRadius: 16)
-                                .stroke(Color("MainColor"), lineWidth: 1)
+                                .stroke(Color.accentColor, lineWidth: 1)
                                 .frame(width: 330, height: 310)
                     )
             }
