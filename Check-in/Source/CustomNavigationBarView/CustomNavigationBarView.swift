@@ -14,7 +14,9 @@ struct CustomNavigationBarView: View {
 
     var body: some View {
         HStack(alignment: .center) {
-            Button(action: {withAnimation {showMenu = true}}, label: {
+            Button(action: {withAnimation {
+                showMenu = true
+            }}, label: {
                 ZStack {
                     Image(systemName: "text.justify")
                         .font(.system(size: 30))

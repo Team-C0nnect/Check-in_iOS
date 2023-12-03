@@ -32,13 +32,24 @@ final class MySendInterceptor: RequestInterceptor {
         try! ApiClient.refreshToken { (result : Result<GoogleLoginModel?, ApiError>) in
             switch result {
             case .success(let auth):
-                if let token = auth {
-                    StorageManager.shared.updateTokens(token)
+                if var token = auth {
+                    token.refreshToken = StorageManager.shared.readTokens()?.refreshToken
+                    guard StorageManager.shared.updateTokens(token)
+                    else {
+                        print("실패")
+                        return
+                    }
                     completion(.retry)
                 }
                 completion(.doNotRetry)
             case .error(let error):
                 completion(.doNotRetryWithError(error))
+                guard StorageManager.shared.deleteTokens(StorageManager.shared.readTokens())
+                else {
+                    print("실패")
+                    return
+                }
+                
             }
         }
     }

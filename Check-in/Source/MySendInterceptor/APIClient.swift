@@ -21,13 +21,18 @@ public class ApiClient {
             completion(Result.error(error: ApiError.unknownError))
             return
         }
+
+        print(refreshToken)
+        
         var urlConvertible: URLRequest
-            = try! ApiRouter(requestConfigurator: RequestConfigurator(path: "/auth/refresh", httpMethod: .post)).asURLRequest()
+        = try! ApiRouter(requestConfigurator: RequestConfigurator(path: "/auth/refresh", parameters: ["refreshToken" : refreshToken],  httpMethod: .post)).asURLRequest()
         urlConvertible.setValue(refreshToken, forHTTPHeaderField: Constants.HttpHeaderField.refreshToken.rawValue)
-        AF.request(urlConvertible).responseDecodable(of:T.self) {
+        AF.request(urlConvertible).responseDecodable(of: T.self) {
             response in
             if response.error != nil {
                 switch response.response?.statusCode {
+                case 400:
+                    completion(Result.error(error: ApiError.badRequest))
                 case 403:
                     completion(Result.error(error: ApiError.forbidden))
                 case 404:

@@ -21,21 +21,14 @@ struct MovieTabView: View {
     @State var selection: Int = 0
     
     var body: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 0) {
             TabView(selection: $selection) {
-                
                 ForEach(movies) { index in
                     MovieItemView()
                         .tag(index.id)
                 }
-                
-                
             }
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
-            
-            
-            
-            
+            .tabViewStyle(PageTabViewStyle())
             
             Button {
                 movies[selection].toggle.toggle()

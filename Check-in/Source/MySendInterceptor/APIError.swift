@@ -8,6 +8,7 @@
 import Foundation
 
 public enum ApiError: Error {
+    case badRequest
     case forbidden
     case notFound
     case conflict

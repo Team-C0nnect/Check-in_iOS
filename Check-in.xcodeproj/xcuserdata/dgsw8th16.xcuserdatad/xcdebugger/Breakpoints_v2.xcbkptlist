@@ -7,222 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E3DF298D-1BAD-4C07-89A0-078AA4575971"
+            uuid = "28C1E727-B7CE-452A-8F29-9E56F900A70B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Check-in/Check_inApp.swift"
+            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "messaging(_:didReceiveRegistrationToken:)"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "refresh()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "80835850-0D7C-4A2A-94ED-CD4AF94CA020"
+            uuid = "14A188CB-CC64-45FC-98C0-9DDD4B6AFE51"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Check-in/Check_inApp.swift"
+            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "refresh()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "40F20E95-2257-478E-A52D-D167B4F63ABE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Check_inApp.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6DF1DF0A-9BA9-4121-848B-86A2E47F2DDD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/SleepOver/SignInView/SignInView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DB34B4C9-F09E-4990-BDCA-D0BB6057B929"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/Check_inApp.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6AC1BCC3-1669-4DBB-87A1-185C4B22F611"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MainViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F220120A-A434-4ED3-BFC4-42EA86BFF3A2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginButton.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6"
-            endingLineNumber = "6"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "69375F84-E6E8-4177-B563-BC95743FBBC1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MoiveRequestView/MovieRequestAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "movieRequest(token:title:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CD8F9FCF-D65C-42C1-BC6A-DD4406A9AC54"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MoiveRequestView/MovieRequestAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "movieRequest(token:title:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "87CE389E-9234-4D7D-B468-66E9C1648025"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MoiveRequestView/MovieRequestAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "movieRequest(token:title:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6EA5B563-0B00-4DF4-A8EB-4E90CEC9BF0B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "body"
-            landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "6EA5B563-0B00-4DF4-A8EB-4E90CEC9BF0B - d83f50ea12405b99"
+                  uuid = "14A188CB-CC64-45FC-98C0-9DDD4B6AFE51 - ff744e647610fd06"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MyFeelingsView.body.getter : some"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Check_in.GoogleLoginModel, Alamofire.AFError&gt;) -&gt; () in Check_in.GoogleLoginAction.refresh() -&gt; ()"
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
                   offsetFromSymbolStart = "184">
                </Location>
                <Location
-                  uuid = "6EA5B563-0B00-4DF4-A8EB-4E90CEC9BF0B - 9021c0108c719127"
+                  uuid = "14A188CB-CC64-45FC-98C0-9DDD4B6AFE51 - ff744e647610fd06"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "isExist.getter : Swift.Bool"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Check_in.GoogleLoginModel, Alamofire.AFError&gt;) -&gt; () in Check_in.GoogleLoginAction.refresh() -&gt; ()"
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "6EA5B563-0B00-4DF4-A8EB-4E90CEC9BF0B - 1d1fae432722b12e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "isExist.setter : Swift.Bool"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "0">
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "224">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -230,232 +71,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AF67B004-3E62-45DA-9318-8678739247C7"
+            uuid = "901D3904-1D8C-48B6-8335-DB5401367A56"
             shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FE90C56B-D398-4588-828C-B105356CC16C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9DDBD239-A970-439A-86D9-ABB33F5C8A2A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "9DDBD239-A970-439A-86D9-ABB33F5C8A2A - 833cc690235ffd4e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 (Swift.Int) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.indexViewStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.IndexViewStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in Check_in.MyFeelingsView.body.getter : some"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "412">
-               </Location>
-               <Location
-                  uuid = "9DDBD239-A970-439A-86D9-ABB33F5C8A2A - e08e8ecdc1abde40"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(Check_in.MyFeelingsViewBubble, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 (Swift.Int) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.indexViewStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.IndexViewStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in Check_in.MyFeelingsView.body.getter : some"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "88"
-                  endingLineNumber = "88"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A4BD4094-58F1-4191-A6B6-3770F38307EC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "A4BD4094-58F1-4191-A6B6-3770F38307EC - 59ce114be765b67e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Int) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.indexViewStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.IndexViewStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in Check_in.MyFeelingsView.body.getter : some"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  uuid = "A4BD4094-58F1-4191-A6B6-3770F38307EC - 59ce114be765b67e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Int) -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.indexViewStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.IndexViewStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in Check_in.MyFeelingsView.body.getter : some"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MyFeelingsView/MyFeelingsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "92">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0284D76E-A2A3-43F0-98C9-BB98A0E52A7E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MainView/MainView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "0284D76E-A2A3-43F0-98C9-BB98A0E52A7E - 1191316c24fad017"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; () in closure #2 () -&gt; CodeScanner.CodeScannerView in Check_in.MainView.body.getter : some"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MainView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "1152">
-               </Location>
-               <Location
-                  uuid = "0284D76E-A2A3-43F0-98C9-BB98A0E52A7E - 1191316c24fad017"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;CodeScanner.ScanResult, CodeScanner.ScanError&gt;) -&gt; () in closure #2 () -&gt; CodeScanner.CodeScannerView in Check_in.MainView.body.getter : some"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MainView/MainView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "712">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C09E2AD5-450B-4EF9-AFEB-FFB150782400"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "retry(_:for:dueTo:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C09E2AD5-450B-4EF9-AFEB-FFB150782400 - 7888916f2937d3ee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "420">
-               </Location>
-               <Location
-                  uuid = "C09E2AD5-450B-4EF9-AFEB-FFB150782400 - 7888916f2937d3cf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "432">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A1C71F2-9251-4C9D-8CA9-F06386B96C02"
-            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
@@ -467,22 +84,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1A1C71F2-9251-4C9D-8CA9-F06386B96C02 - 70bdabb221c2cfc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.adapt(_: Foundation.URLRequest, for: Alamofire.Session, completion: (Swift.Result&lt;Foundation.URLRequest, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "1436">
-               </Location>
-               <Location
-                  uuid = "1A1C71F2-9251-4C9D-8CA9-F06386B96C02 - 70bdabb221c2cfc6"
+                  uuid = "901D3904-1D8C-48B6-8335-DB5401367A56 - 70bdabb221c2cfc6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -496,85 +98,225 @@
                   endingLineNumber = "17"
                   offsetFromSymbolStart = "1280">
                </Location>
+               <Location
+                  uuid = "901D3904-1D8C-48B6-8335-DB5401367A56 - 70bdabb221c2cfc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Check_in.MySendInterceptor.adapt(_: Foundation.URLRequest, for: Alamofire.Session, completion: (Swift.Result&lt;Foundation.URLRequest, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1436">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3D0853B4-A9EC-4C1D-893A-FEC30A678E5E"
+            uuid = "A0EADAFA-C361-4A08-8AD0-18A06C7206DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC5D366B-D113-4E44-96DB-1DFCC9942ED9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2C2B156-B9C1-4255-92B1-48462DADAD76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "adapt(_:for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54909A03-CB80-4D5F-B39B-59DD34C5BE89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54909A03-CB80-4D5F-B39B-59DD34C5BE89 - 7888916f2937d343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "54909A03-CB80-4D5F-B39B-59DD34C5BE89 - 7888916f2937d343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "592BEB30-0050-40EA-87FB-065EB13E4991"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "adapt(_:for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEC35298-AAE9-4123-BFB0-C7EF7125BB26"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F0E094BB-9FCA-48DF-8AE0-E5733AF15C8A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1F6752C7-2B3C-451F-9830-3825C801A2F8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "googleLogin()"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "refreshToken(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1F6752C7-2B3C-451F-9830-3825C801A2F8 - 2ead95c3347e663e"
+                  uuid = "FEC35298-AAE9-4123-BFB0-C7EF7125BB26 - 145994d282ad8a1c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "388">
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "484">
                </Location>
                <Location
-                  uuid = "1F6752C7-2B3C-451F-9830-3825C801A2F8 - 2ead95c3347e66c0"
+                  uuid = "FEC35298-AAE9-4123-BFB0-C7EF7125BB26 - 145994d282ad8a3f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "388">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "FEC35298-AAE9-4123-BFB0-C7EF7125BB26 - 145994d282ad8a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "FEC35298-AAE9-4123-BFB0-C7EF7125BB26 - 145994d282ad8a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "FEC35298-AAE9-4123-BFB0-C7EF7125BB26 - 145994d282ad8a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "244">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -582,39 +324,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "020DAC24-F97B-4ED4-828A-8013057FA45A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9E5A00CD-62BC-4B4F-9AE8-BAF8AD8B422E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "236202E8-C8F0-4094-B6C8-079C89CEF2CA"
+            uuid = "BE3C1CAD-34ED-47AA-97E3-7399D3B617F1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -625,25 +335,9 @@
             endingLineNumber = "31"
             landmarkName = "googleLogin()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4380CC41-F62F-4147-A4FA-157B5FA3E245"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "4380CC41-F62F-4147-A4FA-157B5FA3E245 - 600124da86e51a7f"
+                  uuid = "BE3C1CAD-34ED-47AA-97E3-7399D3B617F1 - 600124da86e51ab1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -651,334 +345,157 @@
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "BE3C1CAD-34ED-47AA-97E3-7399D3B617F1 - 600124da86e51ab1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "588">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C285E1DF-1C86-45C1-ACF8-A919B365760B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/Check_inApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EDBEDC9-ED42-460D-97C2-8215521D1BAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B260B8E-35F1-4285-BD98-21B723CD452D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B260B8E-35F1-4285-BD98-21B723CD452D - 13ee38eaa8199259"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33"
-                  offsetFromSymbolStart = "328">
-               </Location>
-               <Location
-                  uuid = "4380CC41-F62F-4147-A4FA-157B5FA3E245 - 2ead95c3347e6106"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "192">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A5DCE81D-6BC9-4DE2-91B5-5BFE71246DE7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A856D17C-AFE8-47D3-99A8-E8B5DAD2D9F2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A856D17C-AFE8-47D3-99A8-E8B5DAD2D9F2 - 1bbced131f22c24d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "740">
-               </Location>
-               <Location
-                  uuid = "A856D17C-AFE8-47D3-99A8-E8B5DAD2D9F2 - 7a99c2740882cdde"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2E592C18-45BA-4E04-BD24-6CBA7C18147D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2E592C18-45BA-4E04-BD24-6CBA7C18147D - 7a99c2740882cdf9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  uuid = "2E592C18-45BA-4E04-BD24-6CBA7C18147D - 600124da86e51ad0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "104">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "675C32C3-5A2E-4123-BFEA-11FA33F14809"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A84005BB-0AB4-4976-864B-CE1068229695"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A84005BB-0AB4-4976-864B-CE1068229695 - dd6c302b93cfa025"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "2548">
-               </Location>
-               <Location
-                  uuid = "A84005BB-0AB4-4976-864B-CE1068229695 - dd6c302b93cfa025"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "2320">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0EC9038F-0D79-4C61-A65D-FC0C8659001B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0EC9038F-0D79-4C61-A65D-FC0C8659001B - dd6c302b93cfa13d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "1512">
-               </Location>
-               <Location
-                  uuid = "0EC9038F-0D79-4C61-A65D-FC0C8659001B - dd6c302b93cfa13d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
                   offsetFromSymbolStart = "1284">
                </Location>
+               <Location
+                  uuid = "9B260B8E-35F1-4285-BD98-21B723CD452D - 13ee38eaa81993b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "9B260B8E-35F1-4285-BD98-21B723CD452D - 13ee38eaa81993b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "9B260B8E-35F1-4285-BD98-21B723CD452D - 13ee38eaa81993b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "496">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DCD6F364-4227-40A1-8BA6-90A2C2DDADFE"
+            uuid = "3E7546A2-6197-4ECD-8153-F7134E482AF1"
             shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "googleLogin()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "DCD6F364-4227-40A1-8BA6-90A2C2DDADFE - 2ead95c3347e6106"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "192">
-               </Location>
-               <Location
-                  uuid = "DCD6F364-4227-40A1-8BA6-90A2C2DDADFE - 2ead95c3347e6106"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Check_in.GoogleLoginAction.googleLogin() -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "240">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9A09952F-0C1D-4678-ACBB-B45F6967B93A"
-            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "retry(_:for:dueTo:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9A09952F-0C1D-4678-ACBB-B45F6967B93A - 7888916f2937d5fe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "508">
-               </Location>
-               <Location
-                  uuid = "9A09952F-0C1D-4678-ACBB-B45F6967B93A - 36a2f79f3bb56e9b"
+                  uuid = "3E7546A2-6197-4ECD-8153-F7134E482AF1 - 36a2f79f3bb56ed9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -988,9 +505,24 @@
                   urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "404">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "3E7546A2-6197-4ECD-8153-F7134E482AF1 - 36a2f79f3bb56ed9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "272">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -998,7 +530,356 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3A986DFD-98E3-40CE-8C34-D7B277DFE0E3"
+            uuid = "F2178919-1335-4DB8-8556-F54064F97829"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/Check_inApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F2178919-1335-4DB8-8556-F54064F97829 - 54a765a837727db1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;Check_in.SideBarView, Check_in.SignInView&gt; in Check_in.Check_inApp.body.getter : some"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/Check_inApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "F2178919-1335-4DB8-8556-F54064F97829 - d3ae0872b6def0d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;Check_in.SignInView, Check_in.SignInView&gt; in Check_in.Check_inApp.body.getter : some"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/Check_inApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37012939-AA5B-444B-9BF1-4BC1E9AC2D3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F979B64D-3C70-4712-8E86-8002011CF0F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AA67AF4-74EE-452D-80CE-77C3D2CAEFD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AA67AF4-74EE-452D-80CE-77C3D2CAEFD2 - 36a2f79f3bb56f5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "1AA67AF4-74EE-452D-80CE-77C3D2CAEFD2 - 36a2f79f3bb56eba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "1AA67AF4-74EE-452D-80CE-77C3D2CAEFD2 - 36a2f79f3bb56eba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "1AA67AF4-74EE-452D-80CE-77C3D2CAEFD2 - 36a2f79f3bb56eba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Check_in.Result&lt;Swift.Optional&lt;Check_in.GoogleLoginModel&gt;, Check_in.ApiError&gt;) -&gt; () in Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F0BB10F-AC84-4B8B-A322-D4F0B2171840"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F0BB10F-AC84-4B8B-A322-D4F0B2171840 - 145994d282ad8dfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "6F0BB10F-AC84-4B8B-A322-D4F0B2171840 - 145994d282ad8dfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8277A32-3B65-4799-A9F1-87BA43FF62FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8277A32-3B65-4799-A9F1-87BA43FF62FC - 13ee38eaa8199069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2924">
+               </Location>
+               <Location
+                  uuid = "A8277A32-3B65-4799-A9F1-87BA43FF62FC - 13ee38eaa8199069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.refreshToken&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61FA00B9-F08C-43CD-B3F1-D8526DD470AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "request(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "61FA00B9-F08C-43CD-B3F1-D8526DD470AC - dd6c302b93cfa36f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2924">
+               </Location>
+               <Location
+                  uuid = "61FA00B9-F08C-43CD-B3F1-D8526DD470AC - dd6c302b93cfa36f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2720">
+               </Location>
+               <Location
+                  uuid = "61FA00B9-F08C-43CD-B3F1-D8526DD470AC - dd6c302b93cfa36f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;&#x3c4;_0_0, Alamofire.AFError&gt;) -&gt; () in static Check_in.ApiClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Alamofire.URLRequestConvertible, completion: (Check_in.Result&lt;&#x3c4;_0_0, Check_in.ApiError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Check-in"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BEF5FED-8E85-4B34-B76A-54CFC15242C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79D4BF5F-DDE5-40C7-A8F3-802950D1FE03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "refreshToken(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D38E422-8E81-444F-8288-2A05615017E7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1014,20 +895,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "406A3B03-14D6-44B4-BE85-6B36B4E6505B"
-            shouldBeEnabled = "Yes"
+            uuid = "F3180810-7A0C-4585-BE18-ECF45D8921B2"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "retry(_:for:dueTo:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "406A3B03-14D6-44B4-BE85-6B36B4E6505B - 7888916f2937d5fe"
+                  uuid = "F3180810-7A0C-4585-BE18-ECF45D8921B2 - 7888916f2937d44b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1037,12 +918,12 @@
                   urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "508">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "524">
                </Location>
                <Location
-                  uuid = "406A3B03-14D6-44B4-BE85-6B36B4E6505B - 36a2f79f3bb56f3e"
+                  uuid = "F3180810-7A0C-4585-BE18-ECF45D8921B2 - 36a2f79f3bb56ed9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1052,9 +933,9 @@
                   urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "588">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "224">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1062,177 +943,129 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F6107489-C5D8-4744-904C-C9FB7A37D969"
+            uuid = "D0A81BD3-F754-4B67-AA6D-365BF24946C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Check-in-dgbrwirptncfvlckcdvnyoopqcfv/SourcePackages/checkouts/Alamofire/Source/RequestInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2738597D-A9A6-4E19-A970-83D1490D8D3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Check-in-dgbrwirptncfvlckcdvnyoopqcfv/SourcePackages/checkouts/Alamofire/Source/RequestInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6786F7D-FCA6-46CA-B36E-F4CF6C958592"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5C432DC-1C07-441A-AB55-EC4F0C1CF156"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEBBF44E-720B-420F-A177-79E4CE9B76A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "retry(_:for:dueTo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDC7D315-F9E7-4353-A436-6E960EC7E3C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "refresh()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "F6107489-C5D8-4744-904C-C9FB7A37D969 - 7888916f2937d343"
-                  shouldBeEnabled = "Yes"
+                  uuid = "BDC7D315-F9E7-4353-A436-6E960EC7E3C2 - ff744e647610fd67"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Check_in.GoogleLoginModel, Alamofire.AFError&gt;) -&gt; () in Check_in.GoogleLoginAction.refresh() -&gt; ()"
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "108">
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "260">
                </Location>
                <Location
-                  uuid = "F6107489-C5D8-4744-904C-C9FB7A37D969 - 7888916f2937d343"
-                  shouldBeEnabled = "Yes"
+                  uuid = "BDC7D315-F9E7-4353-A436-6E960EC7E3C2 - ff744e647610fd67"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Check_in.GoogleLoginModel, Alamofire.AFError&gt;) -&gt; () in Check_in.GoogleLoginAction.refresh() -&gt; ()"
                   moduleName = "Check-in"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
+                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/GoogleLogin/GoogleLoginAction.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "404">
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "284">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FD35F4BD-2373-4C4F-9FD1-B6680D534E83"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "retry(_:for:dueTo:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C24730E9-F636-4048-9CD1-70DE63E3062E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "retry(_:for:dueTo:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C24730E9-F636-4048-9CD1-70DE63E3062E - 7888916f2937d343"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "108">
-               </Location>
-               <Location
-                  uuid = "C24730E9-F636-4048-9CD1-70DE63E3062E - 7888916f2937d343"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Check_in.MySendInterceptor.retry(_: Alamofire.Request, for: Alamofire.Session, dueTo: Swift.Error, completion: (Alamofire.RetryResult) -&gt; ()) -&gt; ()"
-                  moduleName = "Check-in"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dgsw8th16/Desktop/iOS/Check-in_iOS/Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "404">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7250F3B1-796D-4108-A7C5-80A677FAD1C8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/MySendInterceptor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "retry(_:for:dueTo:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E5F2A6CD-A9EF-4D97-8C8A-A9553D3F040F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "refreshToken(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E6334F89-80C0-4E91-AE16-B9F514C3C1B7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "refreshToken(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FB92E3E9-F805-4061-BD80-A2D247FEC22B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Check-in/Source/MySendInterceptor/APIClient.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "refreshToken(completion:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

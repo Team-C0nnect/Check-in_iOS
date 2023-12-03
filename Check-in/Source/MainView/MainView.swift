@@ -69,11 +69,17 @@ struct MainView: View {
             CodeScannerView(codeTypes: [.qr]) { response in
                 if case let .success(result) = response {
                     
-                    scannedCode = result.string
-                    print(scannedCode ?? "")
-//                    
-//                    ApiClient.request(ApiRouter(requestConfigurator: RequestConfigurator(path: "/attendance")), completion: <#T##(Result<T, ApiError>) -> Void#>)
-//                    }
+                    scannedCode = result.string 
+
+                    ApiClient.request(ApiRouter(requestConfigurator: RequestConfigurator(path: "/attendance", parameters: ["code": scannedCode ?? " "], httpMethod: .post, body: nil))) { (result: Result<ErrorCode, ApiError>) in
+                        switch result {
+                        case .success(let code):
+                            print("\(code)")
+                        case .error(let error):
+                            print("\(error)")
+                        }
+                        
+                    }
                     
                     
                     

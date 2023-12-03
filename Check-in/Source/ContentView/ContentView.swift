@@ -26,8 +26,6 @@ struct ContentView: View {
             return AnyView(MainView())
         case .sleepOver:
             return AnyView(SleepOverView())
-        default:
-            return AnyView(MainView())
         }
     }
     
@@ -48,10 +46,10 @@ struct ContentView: View {
                                          self.tabIndex == .movie ? Color.accentColor : Color.kindaGray,
                                          true,
                                          action: {
-                                            withAnimation() {
-                                                self.tabIndex = .movie
-                                            }
-                                         }
+                            withAnimation() {
+                                self.tabIndex = .movie
+                            }
+                        }
                         )
                         .frame(width: geometry.size.width / 3, height: 50)
                         
@@ -59,10 +57,10 @@ struct ContentView: View {
                                          self.tabIndex == .home ? Color.accentColor : Color.kindaGray,
                                          true,
                                          action: {
-                                            withAnimation() {
-                                                self.tabIndex = .home
-                                            }
-                                         }
+                            withAnimation() {
+                                self.tabIndex = .home
+                            }
+                        }
                         )
                         .frame(width: geometry.size.width / 3, height: 50)
                         
@@ -70,10 +68,10 @@ struct ContentView: View {
                                          self.tabIndex == .sleepOver ? Color.accentColor : Color.kindaGray,
                                          true,
                                          action: {
-                                            withAnimation {
-                                                self.tabIndex = .sleepOver
-                                            }
-                                         }
+                            withAnimation {
+                                self.tabIndex = .sleepOver
+                            }
+                        }
                         )
                         .frame(width: geometry.size.width / 3, height: 50)
                     }

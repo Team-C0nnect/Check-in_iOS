@@ -28,7 +28,7 @@ struct GoogleLoginAction {
                 Messaging.messaging().token { token, error in
                     
                     if let fcmToken = token {
-                        print(fcmToken)
+                        
                         
                         ApiClient.request(ApiRouter(requestConfigurator: RequestConfigurator(path: "/auth", httpMethod: .post, body: ["idToken":signInResult?.user.idToken?.tokenString ?? "", "fcmToken":fcmToken] as Dictionary))) { (result : Result<GoogleLoginModel?, ApiError>) in
                             switch result {

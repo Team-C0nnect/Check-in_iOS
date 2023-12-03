@@ -275,8 +275,8 @@
 		75CDFD552AE7B6F40057B3EA /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				75F9DB002B15D6FB00D9FF6E /* StorageManager */,
 				75F447D02A9F60F600D8B8AB /* Check_inApp.swift */,
+				75F9DB002B15D6FB00D9FF6E /* StorageManager */,
 				75AB5AD22B035FE50036BE05 /* Launch Screen.storyboard */,
 				42E100AF2AFA28D500D3208D /* SideBarView.swift */,
 				757640F22AE7B84A0070F2C9 /* MovieVote */,

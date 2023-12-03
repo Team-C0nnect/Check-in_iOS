@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SleepOverButton: View {
     var body: some View {
-        Button(action: {print("외박 신청")}) {
+        Button(action: {
+            print("외박 신청")
+        }) {
             RoundedRectangle(cornerRadius: 15)
                 .overlay {
                     Text("신청")

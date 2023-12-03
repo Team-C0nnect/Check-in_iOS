@@ -13,14 +13,17 @@ import SwiftUI
 struct MovieVoteView: View {
     @State var isMovieVote: Bool = true
     var body: some View {
-        VStack {
-            if isMovieVote {
+        NavigationView {
+            VStack {
+                NavigationLink {
+                    MovieRequestView()
+                } label: {
+                    Text("영화신청하고 싶다면?")
+                }
+                .navigationBarBackButtonHidden()
+                
                 MovieTabView()
             }
-            else {
-                MovieRequestView()
-            }
-            
         }
     }
 }

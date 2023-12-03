@@ -63,7 +63,7 @@ final class StorageManager {
         
     }
     
-    func updateTokens(_ token: GoogleLoginModel) -> Bool {
+    func updateTokens(_ token: GoogleLoginModel?) -> Bool {
         guard let query = self.query,
               let data = try? JSONEncoder().encode(token) else {
             return false
@@ -76,6 +76,12 @@ final class StorageManager {
     }
     
     
+    func deleteTokens(_ token: GoogleLoginModel?) -> Bool {
+        guard let query = self.query else {
+            return false
+        }
+        return SecItemDelete(query as CFDictionary) == errSecSuccess
+    }
     
 }
 

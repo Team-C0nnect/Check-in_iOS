@@ -28,6 +28,10 @@ struct MovieRequestView: View {
                     .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                     .padding(10)
+                    .onSubmit {
+                        movieResearch.movieReserch(movieNm: search)
+                    }
+                
                 
                 Button {
                     movieResearch.movieReserch(movieNm: search)
@@ -48,13 +52,11 @@ struct MovieRequestView: View {
             ScrollView {
                 if let movieList = movieResearch.movieList {
                     ForEach(movieList, id: \.self) { movie in
-                        if movie.genreAlt != "성인물(에로)" && movie.genreAlt != "" {
+                        if !movie.genreAlt.contains("성인물(에로)") && movie.genreAlt != "" {
                             VStack(spacing: 0) {
                                 Divider()
                                 
-                                HStack() {
-                                    
-                                    Text("\(movie.movieNm), \(movie.genreAlt)")
+                                HStack() {                                    Text("\(movie.movieNm), \(movie.genreAlt)")
                                         .font(.custom("Apple SD Gothic Neo", size: 20).weight(.bold))
                                         .padding(.vertical)
                                     
@@ -84,9 +86,20 @@ struct MovieRequestView: View {
                 }
             }
         }
-        
-        
-        
+        .navigationBarBackButtonHidden()
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button {
+                    dismiss()
+                } label: {
+                    
+                    Image(systemName: "chevron.left")
+                    
+                        .font(.custom("Apple SD Gothic Neo", size: 15))
+                }
+                .tint(Color.white)
+            }
+        }
         
     }
     

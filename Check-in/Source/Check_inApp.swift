@@ -79,13 +79,14 @@ struct Check_inApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    @State var showMenu: Bool = false
-        
     var body: some Scene {
         WindowGroup {
-
-            MainView()
-            
+            if(StorageManager.shared.readTokens()?.accessToken != nil) {
+                SideBarView()
+            }
+            else {
+                SignInView()
+            }
         }
     }
 }

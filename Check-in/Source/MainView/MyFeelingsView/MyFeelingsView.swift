@@ -16,6 +16,7 @@ struct MyFeelingsView: View {
         case sad = "sad"
         case angry = "angry"
         case perfect = "perfect"
+        case sick = "sick"
         
         var emoji: String {
             switch self {
@@ -29,6 +30,8 @@ struct MyFeelingsView: View {
                 return "😡"
             case .perfect:
                 return "😍"
+            case .sick:
+                return "🤒"
             }
         }
         
@@ -44,13 +47,15 @@ struct MyFeelingsView: View {
                 return "화나요!!"
             case .perfect:
                 return "완벽해요!!"
+            case .sick:
+                return "아파요..."
             }
         }
         
         
     }
     
-    let feels: [Feel] = [.perfect, .good, .bad, .sad, .angry]
+    let feels: [Feel] = [.perfect, .good, .bad, .sad, .angry, .sick]
     
     @State var isExist: Bool = false
     
