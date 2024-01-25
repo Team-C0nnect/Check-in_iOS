@@ -10,13 +10,9 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.googleusercontent.apps.846014004935-08o5vlb5p30rrc7gqgmo53u7duhltco6</string>
-			</array>
+			<array/>
 		</dict>
 	</array>
-	<key>GIDClientID</key>
-	<string>846014004935-08o5vlb5p30rrc7gqgmo53u7duhltco6.apps.googleusercontent.com</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

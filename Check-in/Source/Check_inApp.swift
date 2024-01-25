@@ -81,12 +81,7 @@ struct Check_inApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if(StorageManager.shared.readTokens()?.accessToken != nil) {
-                SideBarView()
-            }
-            else {
-                SignInView()
-            }
+            SideBarView()
         }
     }
 }

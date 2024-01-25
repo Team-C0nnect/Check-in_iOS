@@ -10,7 +10,7 @@ import Foundation
 public struct Constants {
     
     
-    public static let baseUrl = "http://43.202.136.92:8080"
+    public static let baseUrl = "url"
     
     
     

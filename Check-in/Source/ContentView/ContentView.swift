@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum TabIndex{
+enum TabIndex {
     case movie, home, sleepOver
 }
 

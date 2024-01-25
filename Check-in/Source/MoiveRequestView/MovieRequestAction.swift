@@ -16,7 +16,7 @@ struct MovieRequest {
     
     func movieRequest(token: String, title: String) {
         
-        let url: String = "http://43.202.136.92:8080"
+        let url: String = "url"
         
         
         let header: HTTPHeaders = [
